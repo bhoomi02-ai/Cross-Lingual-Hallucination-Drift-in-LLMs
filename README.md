@@ -11,8 +11,15 @@
 
 We investigate whether cross-lingual hallucination drift in LLMs is
 **task-dependent** — comparing factual QA (TruthfulQA) vs. commonsense
-reasoning (XCOPA) across English, Spanish, and Swahili using
-Aya Expanse 8B as the target model and GPT-4o-mini as judge.
+reasoning (XCOPA) using Aya Expanse 8B as the target model and GPT-4o-mini as judge.
+
+**Language coverage per task:**
+- TruthfulQA: English, Spanish (`alexandrainst/m_truthfulqa`)
+- XCOPA: English, Swahili (`super_glue/copa` + `xcopa/sw`)
+
+> **Note:** Spanish is not available in the XCOPA dataset (which covers 11 languages
+> but not Spanish). Cross-task drift is compared as en→es drift (TruthfulQA)
+> vs. en→sw drift (XCOPA).
 
 ---
 
@@ -43,7 +50,11 @@ python src/07_visualize.py           # bar charts and tables
 
 ```
 data/raw/          → original downloaded data (never edit)
-data/sampled/      → 150-per-language samples
+                      truthfulqa_en.json  (817 examples)
+                      truthfulqa_es.json  (789 examples)
+                      xcopa_en.json       (500 examples, SuperGLUE COPA train+val)
+                      xcopa_sw.json       (500 examples, XCOPA Swahili test)
+data/sampled/      → 150-per-language samples (random seed 42)
 data/prompts/      → formatted prompts ready for inference
 outputs/responses/ → raw Aya model responses
 outputs/labels/    → GPT-4o-mini judge labels
