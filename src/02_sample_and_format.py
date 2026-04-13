@@ -137,7 +137,8 @@ if __name__ == "__main__":
         process_truthfulqa(lang)
 
     print("\n=== XCOPA ===")
-    for lang in ["en", "es", "sw"]:
+    # Note: Spanish (es) is not available in the XCOPA dataset; using en + sw only
+    for lang in ["en", "sw"]:
         process_xcopa(lang)
 
     print("\nAll prompts saved to data/prompts/")
