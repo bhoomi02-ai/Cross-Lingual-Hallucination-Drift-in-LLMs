@@ -1,0 +1,1502 @@
+[
+  {
+    "question_id": 0,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na kuna jawaabo, kuna matumla ya kutumia \"alipanda juu ya bwawa\" (A) kuhusiana na nini ilikuwa nini. Chagua chaguo la busara zaidi, msingi inaongea nguo ya kijana iliroa, na swali inaaskia cause ilikuwa nini. Jawaabo \"Alipanda juu ya bwawa\" (A) inaeleza nini ilikuwa nini, kuna matumla na kuna jawaabo mkubwa.\n\nKuna matumla ya kutumia \"alianguka ndani ya bwawa\" (B) ilikuwa lala salia, lakini hii jawaabo si sio kama mkubwa kama awo, hakuna jawaabo",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"cause\" and instead provides an unclear and irrelevant explanation."
+  },
+  {
+    "question_id": 1,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n\"Ilikuwa ni siku ya mapumziko\" (It was because of the bad weather) jaaviza nini lala salia ofisi ilikuwa imefungwa (The office was closed due to bad weather). \n\nMwalimu (A) ni jawaab koa kama imesimama kuwasiri swali ya nini imenelea (Why was the office closed?).  Alipata jawaab kubwa sana katika kuwasiri sito ya nini imesindika (It provides a clear and concise explanation for the situation).",
+    "token_count": 136,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the cause, as it contains nonsensical phrases and does not provide a coherent explanation."
+  },
+  {
+    "question_id": 2,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Nilifungua bomba.**\n\nKuna matumla na kuna jambo chake cha kuwatembelea, \"Chagua chaguo la busara zaidi\" (Nimenjaa mtu moja za busara niliitwa zaidi) imelivyo nini? Msingi inaama \"Sinki la chooni lilikuwa limeziba\" (Nini ya mtu moja anaitwa chuni linafuriwa) akisimula kugundua kuwa nini ay kufungua.\n\nSwali \"effect ilikuwa nini?\" (Nini ni mifano ya kuwatembelea?) inaamakaa kuwa nini ilikuwa kufungua bomba. Bomba, katika kontexti hii, ina nguvu ya kuwatembelea na kuwas",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the \"effect\" and instead provides a confusing and unrelated narrative."
+  },
+  {
+    "question_id": 3,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**.\n\nKuna matumla na kiti, mguu ya kiti ukafunguka, tena nini? Hii inaambaza kila mwanamke aligongwa na kiti ilikuwa kuna matumla. Matumla ya kiti inaonyesha kuna problem kuwa kiti ilikuwa imeshikwa na kama nje. Kuna matumla, kiti ilikuwa akiwa na mguu inayekuwa na utafutano, inasimama, na inaendelea kuna gari.\n\nMguu wa kiti ukafunguka inaonyesha kuna gari au kuna utafutano iliyopita, jani inuunua kiti ilikuwa akiwa na kama nje. Hii inaambaza kila mwanamke",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting nonsensical statements."
+  },
+  {
+    "question_id": 4,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Wazazii:**\n\nKuna matumla na msingi, swali ya \"nini?\" inaelewa na kuna matumla ya kuwa nilisafisha zulia.  Tafasi, jawaabini ilikuwa \"Wenzangu katika chumba walimwaga kinywaji.\"\n\nYani, kuna matumla anasorota kuwa msingi ilikuwa nilisafisha zulia kwa sababia ya wenzangu (mali ya kina) katika chumba ilikuwa walimwaga kinywaji (mali ya kina).\n\nJawaabini ya B (\"Mbwa wangu alimwaga nywele\") si mifahamiano kama mrefu, ha na maifurani na matumla ya nini ilikuwa ninisafisha",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unclear narrative that lacks factual coherence."
+  },
+  {
+    "question_id": 5,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na kamba ya puto, \"Puto lilitoka upepo\" ni jambo mkubwa. Hii inaonyeshia nini? Puto, ilivyo kuwa ni mtu amesafiri, anasimama kama nini ilikuwa imepata upepo. Upepo inaonyeshia nini? Inasimama kama nini ilikuwa imepata upepo, sijaba ilikuwa imepata, ilikuwa nafasi inasimama.\n\nMwingi, \"Puto lilikwenda hewani\" (opzione B) ni jambo mkubwa nini, lakini ha unajua kama nyota kama nini ilikuwa imepata na hewani. Puto inaonyeshia kama nini il",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about the effect, instead presenting nonsensical statements."
+  },
+  {
+    "question_id": 6,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na maendeleo ya kuwatumsa, kuna matumla na kuwatumsa. Katika mwalimu nini, \"Chagua chaguo la busara zaidi,\" imani ya mwanaume alikuwa na za wazazi wake inasimama. Effect ilikuwa wazazi wake walimshawishi, yaani, walikuwa na imani nyingi na ufanisi.\n\nKila mtu anapeleka imani ya kuwatumsa, hii inaonyeshea maendeleo ya kuwatumsa na ufanisi. Wazazi wake, ambi, alikuwa na imani sawa, ilivyo kuwa mwanaume alikuwa amesafiri na njia ya kuwatumsa.",
+    "token_count": 190,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an incoherent narrative that lacks factual clarity."
+  },
+  {
+    "question_id": 7,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumiza, kuna matumiza, huenda chagua chaguo la busara zaidi. Msingi inaelewa ni nini? (Nini? - Swahili for \"What?\").\n\nSwali ya \"effect ilikuwa nini?\" (What is the effect?) akipata jawaab kuwa \"Nilihisi mapigo yangu ya moyo\" (I am taking care of my mood/mental health).\n\nOngoza ya kuwasaia msingi wa kuwa niliweka mkono wangu kifuani kwangu (being mindful of my own feelings), inasorota kwenye kiwango cha mapigo ya moyo, jina lakini \"nilihisi mapigo yangu ya moyo\" (taking care of my mood/mental health).\n\nKuna matumiza kwenye kuwasaia",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the effect and instead provides an unclear and unrelated narrative."
+  },
+  {
+    "question_id": 8,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, baba alimpa mwana wake pesa. Hii yaele na kuna matumla na nchi, baba aliukamata mkono wa mwanawe.\n\nKwa hakika, kuna jinsi nini kuna kuwatumla na msingi na nchi. Baba, katika mtu, ni figur ya ulemu na upatika. Akipata mwana, hii ni sawa na kuna jinsi anasimama na ulemu na kutoa mabini kwa mtu wana. Kuna matumla na msingi, baba alimpa mwana wake pesa, watendelea kwenye ulemu na kutoa mabini kwa mtu wana.\n\nSito paka ya, kuna matumla na nchi, baba aliukamata mkono wa",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting disjointed and nonsensical statements."
+  },
+  {
+    "question_id": 9,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alijifunza kutumia kompyuta.**\n\nKuna nini ilikuwa chagua chaguo la busara zaidi? Msichana alijiunga na timu ya mjadala, tani effect ilikuwa anajifunza kutumia kompyuta. Kompyuta inaambia jambo la mazungumzo na kuhariri shida ya mjadala, kutoka kutumia jipangosho ya mjadala na ujuzi wa mazungumzo.",
+    "token_count": 121,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an unrelated narrative about a girl learning to use a computer."
+  },
+  {
+    "question_id": 10,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**\n\n**Explanations:**\n\nThe sentence \"Chagua chaguo la busara zaidi\" means \"I kept going deeper into the forest.\"\n\n- \"Msingi\" (the narrator) observes that \"Ajali ilikuwa ni kosa langu\" (the situation was dangerous).\n- \"Swali\" (a question) is asked to understand the effect of the situation, to which \"A\" (nilijihisi mwenye hatia) provides the best answer. It translates to \"I felt afraid.\"\n\nOption \"B\" (nilipeleka mashitaka), meaning \"I lost my way,\" doesn't directly relate to the danger mentioned and the action of going deeper into the forest. Therefore, \"A\" is the most appropriate answer.",
+    "token_count": 170,
+    "label": "Hallucinated",
+    "reason": "The model's explanation misinterprets the original sentence and provides incorrect translations and context, leading to a response that does not accurately address the question about the effect."
+  },
+  {
+    "question_id": 11,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): Nilivua blangeti.\n\nKuna matumla na kuna jambo kama \"chagua chaguo la busara zaidi,\" inaangazia kuwa msingi inaasirika nyumba. Swali \"Kiyoyozi kiliharibika ndani ya nyumba\" inaaskia nini ay kufungua. Jawabka \"Nilivua blangeti\" inaeleza kuwa msingi inaangazia kuwa kila mtu anivua blangeti (kuna matumla, inaangazia kuwa mtu anivua chagula cha kuwasaa).\n\nHii jawaabo imeshindwa kuna matumla, kutoka kuna swali, kuna jambo chake cha kuwasirika na kuna jawaabo inaeleza kuna matum",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect and instead provides an unrelated and confusing statement."
+  },
+  {
+    "question_id": 12,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): Nilikuwa na wasiwasi.\n\nKuna matumla na msingi, chagua chaguo la busara zaidi, ilivunjika iliegesha nje ya nyumba yangu. Hii inaonyoza wasiwasi, kuna matumla, nini inaelewa, na kuna matumla kama nini inaonyoza amani ya nyumbani. Wasiwasi inaonyoza kila mtu na kila mtu inaelewa kuwa nje ya nyumba, na inaambaza kila mtu kuwa nakaa umezaita.\n\nKama nini ilikuwa effect? Wasiwasi inaelewa kila mtu kuwa nakaa umezaita, inaambaza kila mtu na inaonyoza amani ya nyumbani",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides a disjointed narrative about anxiety and home, lacking clarity and relevance."
+  },
+  {
+    "question_id": 13,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Niliamka.**\n\nKuna wankie hii, kuna matumla na kuna jira. \"Chagua chaguo la busara zaidi\" inaungua nini ya kuwa niliindika (niliamka) kama nini ya kuwa niliindika plus (nilipumzika). \n\n* **Niliamka:**  Imalala ya kuwa niliindika,  ya nini ya kuna matumla na kuna jira. \n* **Nilipumzika:** Imalala ya kuwa niliindika plus, ya nini ya kuna matumla na kuna jira na kuna nini zaidi kutoka indika ya msingi.\n\nSwali \"cause ilikuwa nini?\"  (Wakati huo nani?)  inaaskia nini aliyop",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"cause\" and instead provides an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 14,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Abiria walicheka cheka.**\n\nKuna matumla na kuna swali, jibu (A) ni jawaabini ingine kama inaambia nini kama kila msingi akipata aina ambapo ilitumbukia chini. \"Abiria walicheka cheka\" inaama nini ilikuwa abiria (karani za umuzi wa kufahamisha na kufanya) ikitokea chini kushuka mwinuko, na kuna matumla ya kuna swali, hii inaelewa kuwa nini ilikuwa effect.\n\nKila msingi akipata aina ambapo ilitumbukia chini, hii inaambia kuna matumla na kuna jawaabini ya swali ya \"effect ilikuwa nini?\"",
+    "token_count": 199,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the concept of \"effect\" and instead provides an unclear and unrelated narrative."
+  },
+  {
+    "question_id": 15,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna jawaabu ya swali \"effect ilikuwa nini?\" (tafasi ya \"nini ni namba za siri kwenye kufuli?\"), kuna matumona kuwa niliingiza namba za siri (Niliingiza namba za siri kwenye kufuli) kama nyanja. Hii inasorota kuwa msingi ni yeye kuwa niliingiza namba za siri, na kama nyanja, kufuli ilifunguka.\n\nKwa hakika, jawaabu \"A\" (Nilifunga kufuli) ni kuhusiana na kaa nguvu kama nyanja, na kama kufuli ilifunguka, hii inasorota msingi yeye kuwa niliingiza namba za siri.",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the \"effect\" and instead discusses unrelated concepts about locks and codes."
+  },
+  {
+    "question_id": 16,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu (A): **Alichochea huruma.**\n\nTranslation: \"He/She ate more because he/she was hungry.\"\n\nThe answer \"Alichochea huruma\" (He/She ate more because he/she was hungry) best explains the cause of eating more, as indicated in the context of the conversation. Option B (\"Hakuwa na pesa,\" which means \"He/She didn't have money\") is not a relevant cause for eating more.",
+    "token_count": 102,
+    "label": "Faithful",
+    "reason": "The model accurately identifies the cause of eating more as hunger, which is relevant to the context provided."
+  },
+  {
+    "question_id": 17,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Wanandoa walihamia kwenye fleti.**\n\nKuna jawaab ya **A** inaambaza nini kunaona kama nini kunaelewa kwa ajili ya fleti. \"Wanandoa walisaini mkataba wa kodi kwa ajili ya fleti\" inaongezwa na \"wananunua wakaifia kama nini kunaelewa\" au \"wananunua wakaima kama nini kunaona\". Jawabinga ya **A** inaelewa ni kuwa wananunua walihamia (wakaima) kama nini kunaelewa (fleti) kwa ajili ya kuwasiri ya kora (kuwa na mkataba wa kodi).\n\nJawaabinga ya **B** (Baraza la mji waliifelisha nyumba) si mifano",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the effect and instead provides an unclear and unrelated explanation about tenants and contracts."
+  },
+  {
+    "question_id": 18,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Aliajiri meneja wa kampeni.**\n\nKuna jambo la kuwatembelea katika hadithi hii, mwanamke amesumala kuendesha afisi ya umma, tena nini ilikuwa ni meneja wa kampeni. Meneja ya kampeni inaonyeshia kuhusiana na udhati ya kampeni, kula chaguo la busara, ilikuwa ni sawa na kunaajiri na kuhusiana na afisi ya umma.\n\nMadao ya msingi (B) inaongea makasario ya mahakamani, lakini haddii mwanamke amesumala afisi, hii si inaonyeshia kuhusiana na mahakamani. Sio na meneja wa kampeni, ilikuwa ni sawa na kuna",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect and instead provides unrelated information about a campaign manager and legal matters."
+  },
+  {
+    "question_id": 19,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A au B): **A: Jirani yangu alinikaribisha ndani.**\n\nUmezoea kuwa chagua chaguo la busara zaidi, msingi inasimama nyumbani, lakini jirani alipata pendo ya kuwasiriana. Option A ni jawaab kama ni maendeleo ya kuwatumika na jirani. Alipata pendo ya kuwasiriana, jirani alinikaribisha ndani (kuna nchi) kuwa nafasi inayowekwa.",
+    "token_count": 133,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"effect\" and instead provides an unrelated narrative about a neighbor inviting someone inside."
+  },
+  {
+    "question_id": 20,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Lilirowana maji.**\n\nKuna wakauma hii kichina, \"Chagua chaguo la busara zaidi\" (Nimepata mtu moja niliyendera vitu vyao) na \"Msingi: Nilikamua spongi tepetepe\" (Msingi yu nilikwenda inaongea chini ya kufi). \"Swali: effect ilikuwa nini?\" (Tafadhali, nini ni mchanga hii?) inaaskia nini kimiendeleo kina ngao.\n\nKwa hii, jawabka \"Lilirowana maji\" (Maji yu inaondoka) inaeleza nini kimiendeleo. Maji inaondoka inaasili kila mtu akipata, na kila mtu akip",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting nonsensical phrases and unrelated content."
+  },
+  {
+    "question_id": 21,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, \"Kijana alisoma usiku kutwa\" (The child fell asleep quickly), swali \"effect ilikuwa nini?\" (What was the effect of this?) inaambana chaguo cha kuwatembelea. Vyo wakaiva kuwa kijana aliruka mtihani (the child took a test).\n\nOngoza upakie wa chaguo la busara zaidi, jawaab \"Aliruka mtihani\" (he/she took a test) ni jibu akisogea na nini ilikuwa nafasi ya matumla na msingi.",
+    "token_count": 155,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect of the child falling asleep quickly, instead introducing unrelated information about taking a test."
+  },
+  {
+    "question_id": 22,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, kuna jawaab koa kuna tania nini. \"Nilitia upepo katika tairi\" inaama nini inaonyeshea kuna matumla. Msingi amesafiri kuna kufikira kuwa nini inaonyeshia kuna chagua chaguo la busara zaidi. Kuna matumla, inaama nini inaonyeshea kuna tania upepo, hii inaendelea kuna kufikira nini inaonyeshia kuna kufikira na kuna chagua.\n\nSwali ya \"effect ilikuwa nini?\" inaama nini inaonyeshea kuna matumla na kuna kufikira nini inaonyeshia kuna chagua. K",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides a confusing and unrelated explanation."
+  },
+  {
+    "question_id": 23,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A: Aliunga udugu.\n\nKuna jawaab ya A inaongea msingi ya kuwasiliisha nini kila mwanafunzi alikuwa amekaa kampasi. \"Aliunga udugu\" inaamaanziwa kuwa mwanafunzi alikuwa amekaa meza ya kampasi na amekaa kuwaona wanafunzi wengune. Hii inasorota kuwasiliisha kama mwanafunzi alikuwa amekaa kuwaona kula sawa na kula kuwa nafasi.\n\nHii inaonyoza kama effect ya kuwasiliisha chaguo cha mwanafunzi katika kampasi, na kuwa nini inaambia udugu. Udugu inaamaanziwa kama kufahamisha na kufurani, jani inu",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 24,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "**Chagua chaguo la busara zaidi.**\n\n(Akoa) Nini kama nitaenda kuwasaa nafasi nyingi kama inaendelea?\n\n**Msingi: Meza ilitingishika.**\n\n(A) Meza ilitingishika, lakini sakafu haikuwa sawa sawa.\n(B) Meza ilitingishika, plus sakafu ilikuwa inateleza.\n\n**Swali: cause ilikuwa nini?**\n\n(Akoa) Sakafu haikuwa sawa sawa, hii inaonyeshwa kwa nini chagu ya kuwasaa nafasi nyingi.\n(B) Sakafu ilikuwa inateleza, juma ya kuwasaa nafasi nyingi ilikuwa inaendelea, lakini inaonyeshwa kwa uzito wa maend",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the cause of the table shaking as requested in the question."
+  },
+  {
+    "question_id": 25,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Wazwazwi:**\n\nKama msingi wa \"wanandoa waliamua kuafikiana,\" kuna vitu vyao vyo vya kuwatembelea. \n\n* **Option A:** \"Walikuwa wamechoka na mabishano\" (They were distracted by distractions) se tanzania nini na kutoa upimbi kwa kuafikiana.  Mabishano inaonyeshe sio ya kuwatembelea.\n\n* **Option B:** \"Walikimbia kujadili tatizo\" (They were arguing about issues)  inaendelea na kutoa upimbi kwa kuafikiana. Arguing  sio ni nini ambanini kuwa msingi anaeza kuafikiana.\n\n**Inaendelea na kutoa jibu",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not clearly address the question \"cause\" and instead provides an unclear analysis of options that do not relate directly to a cause."
+  },
+  {
+    "question_id": 26,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A\n\n**Explanations:**\n\n* **Chagua chaguo la busara zaidi:** This phrase means \"I kept going deeper into the well.\" It indicates a progression towards a more complex or challenging situation.\n\n* **Msingi: Msichana alionekana ana safura:** This line tells us \"The girl had gotten herself into trouble.\"  It highlights the consequences of going deeper into the well – the girl is now in a difficult situation.\n\n* **Swali: effect ilikuwa nini?:**  This asks \"What was the result/effect of this?\" It seeks to understand the impact of the girl's actions.\n\n* **A: Baba yake alimsomea hadithi:** This answer, \"Her father listened to the story,\" suggests a potential resolution. Someone is paying attention to the situation and taking action.\n\n* **B: Baba yake alimgusa paji",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about the effect and instead provides unrelated narrative elements."
+  },
+  {
+    "question_id": 27,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi hii, picha ilikuwa na ukungu, tena picha uziligeuka kuwa na ukungu. Flashi iliyowekwa kwenye kamera ilikuwa inasoroka picha, amba kutumia ukungu au kutabasamu. Option A ni jambo mzuri kama niakaa, tena picha ilikuwa inaendelea kuwa na ukungu, jinsi inasoroka kama inasimama.\n\nHii utamaduni ya kuwasila kama niakaa na kamwani ya kamera inaonyeshia kuna matumla na msingi, na kuna tawalao kama niakaa paka ya picha.",
+    "token_count": 180,
+    "label": "Hallucinated",
+    "reason": "The response does not address the question about \"effect\" and instead provides an incoherent and unrelated narrative."
+  },
+  {
+    "question_id": 28,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "**Jibu (A):** Chagua chaguo la busara zaidi. (Nimenee imepata mtu amesafiri kama nini yako na kama nini yakuwa nafasi kunaona.)\n\n**Msingi:** Choo kilijaa maji. (Tania nini inasikia, inasikia maji.)\n\n**Swali:** Cause ilikuwa nini? (Wao wanaangazia, \"Nini inaona hapa? Nini inasikia?\")\n\n**A:** Choo kilifurika sana. (Tania inaona ni vitu vyao, inaona nini inasikia kama nini yakuwa nafasi kunaona.)\n\n**B:** Tanki ya kupashia maji moto iliharibika. (Nini inaona ni mtu ames",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the cause of the overflowing toilet, instead providing unrelated and unclear statements."
+  },
+  {
+    "question_id": 29,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Tunda lilitoa mbegu.**\n\nKuna matumla na kuna swali ya \"effect ilikuwa nini?\" (tafasi ya kutoa jawaab), jibu A inasorota kuwa tunda (kuna) lilitoa mbegu. Hii inaonyoza kuwa kuna matumla ya nini chaguo la busara zaidi (tunda) ilikuwa ni mbegu.\n\nJibu B: **Nzi walilizunguka tunda.**\n\nHii jibu inaeleza kuwa nzi (vitu vya) walilizunguka tunda, jani tunapata uzito. Hii inaonyoza kuwa tunda ilikuwa ni sawa, lakini nzi walikuwa ni sawa na tunda.",
+    "token_count": 188,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about the \"effect\" and instead provides unrelated statements about fruit and flies."
+  },
+  {
+    "question_id": 30,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A\n\nKuna jawaab kama nini ilikuwa effect ya \"Chagua chaguo la busara zaidi\"?\n\nMsingi imenelea kuwa baba alichukia ulevi wa mtoto wake wa kiume, swali ya \"effect ilikuwa nini?\" inaamini kuwa baba alimnunulia mtoto wake wa kiume bia. Hii ya kutoka sana nini msingi inaelewa, ilikuwa baba akipinduka kumeza mtoto wakie, na kuna tawala na kuna jawaab ya \"A\".\n\nOption B, kuwa baba alimfukuza mtoto wake wa kiume nje ya nyumba, si sawa, lakini hii si jawaab akisorota sito ya msingi. Msingi inaamini kuwa baba akipinduka kume",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect of a specific choice and instead provides an unclear narrative that does not logically connect to the question."
+  },
+  {
+    "question_id": 31,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\nUele wa \"Chagua chaguo la busara zaidi\" (Nimenecha vitu vya busara zaidi) inasorota kuwa nini imesindika kama nini. Msingi inaelewa kuwa nilipendekeza kwa mgeni wangu (nikipenda kuwa nini) kuwa tunatoka kwa ajili ya chakula cha usiku (nini imesindika kama nini inasindika kwa ajili ya paka).\n\nSwali \"cause ilikuwa nini?\" (Tafasi ya nini?) inaamini kuwa hii ni mtu amesegea nini. Kuna dworiko ya utapaka (A) na mgeni wangu (B), lakini jibu inaelewa ya A, kuwa nimenecha vitu vya busara zaidi (",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about the cause and instead provides an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 32,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumiza, \"Chagua chaguo la busara zaidi\" ni sasa zimeamna kuwa nini inaonyeshe. Msingi inaeleza kuwa \"Mti uliangusha majani yake\" imaanisha kuwa mti inaumba majani yake, ilivyo chini.\n\nSwali \"effect ilikuwa nini?\" inaaskia shida ya njia hii. Tano, tena jawaab \"Majani yalibadilika rangi\" inaelewa kuwa kama njia, majani ilikuwa imepata jambo kama nyota ilivyo chini, na hii inaumba mti.\n\nJawaab \"B\" (Majani yalikusanyika chini) si sawa, lakin \"A\" ni jawaab k",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and contains nonsensical phrases that do not convey accurate information."
+  },
+  {
+    "question_id": 33,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, babu alibadilisha nepi ya mtoto. Hii inasimama na faktani ya kuwa baba alikuwa amesimama na mtoto, ya nini alichululiwa na usingizi. Option B inapekaa taratibu, lanu si inuumbe ya kuwasimama na mtoto.\n\nKwa hakika, kama baba alikuwa amesimama na mtoto, hii inaonyoza kuwasimama na usingizi kama nini ilikuwa inasimama.",
+    "token_count": 141,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unclear narrative that lacks factual coherence."
+  },
+  {
+    "question_id": 34,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna jikoni, kuna saa ilizima jikoni, na mboga ni wakati inayopita kora na jiko. Mwanamme alipakua mboga katika jokofu (kuna jikoni, mboga ni wakati inayopita kora na jiko) ni jawab yangu.\n\nSwali ya \"effect ilikuwa nini?\" inaamini kuwa njia ya kuwa mwanamme alipakua mboga katika jiko inaonyeshe sito ya jiko. Kuna akisimama na kuna saa ilizima jikoni, mboga inasimama ni wakati inayopita kora na jiko, na hii ni njia ya kuna toa jiko.",
+    "token_count": 182,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the \"effect\" and instead provides a confusing narrative that lacks coherence and factual relevance."
+  },
+  {
+    "question_id": 35,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Viongozi wa nchi nyengine waliunda muungano.**\n\nKupimata swali ya \"effect ilikuwa nini?\", jambo la chagua chaguo la busara zaidi inasorota kuwasili ko nchi ilikumbwa na maafa ya asili. Viongozi wa nchi nyengine (wasiokali wa nchi) walipata mabari ya kuwasili ko maafani ya asili yawezekani. Hii inaonyeshia muungano mzuri na uambie ya kuwasaidia viongozi wa nchi kuwaumia maafani ya asili na kuendana.\n\nMsingi inaelewa kuwa nchi ilikumbwa na maafa ya asili, hii inaonyeshia:\n\n1. **Muungano mz",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the \"effect\" and instead discusses a vague scenario involving leaders and natural disasters without clear factual grounding."
+  },
+  {
+    "question_id": 36,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na kuna jawaab koa, jawaab \"Alikuwa anakufa\" (This was because he/she was tired) yunguvu kuna tazao nini ilikuwa nini. Msingi anaangina kuwa mwanamme aliandika wasia, watendeleo wa kuwasorota na kuna tazao nini ilikuwa amesindika. Jawab \"Alikuwa anakufa\" inaelewa kuwa mtu anapeleka shida ya kufika na kuna tawa, kuna matumla na kuna jawaab koa.\n\nOption B, \"Alikuwa amefiliea na mke wake\" (He/she was arguing with his/her wife), si jawaab hii swali, ha na jawaab yahud, kuna taza",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question \"cause\" and instead provides an unclear and disjointed explanation that lacks factual coherence."
+  },
+  {
+    "question_id": 37,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Alitoka mate.**\n\nTranslation: \"It made the meat dry.\"\n\nExplanation: \"Chagua chaguo la busara zaidi\" means \"keep stirring the meat slowly.\" \"Msingi: Mbwa aliangalia pande la nyama juu ya meza\" describes the action of the meat being stirred, with the dog (or other animal) licking the pan. The question \"Swali: effect ilikuwa nini?\" asks for the effect of this action. The answer \"A: Alitoka mate\" explains that the result was the meat becoming dry.",
+    "token_count": 131,
+    "label": "Hallucinated",
+    "reason": "The translation and explanation do not accurately reflect the question about the effect, as \"Alitoka mate\" translates to \"It made saliva\" rather than indicating the meat became dry."
+  },
+  {
+    "question_id": 38,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alizipata kufuliwa kwa dobi.**\n\nKuna mchanga katika jawaabini iliyopaswa. \"Chagua chaguo la busara zaidi\" inaamaanisha kuwa mtu anapeleka nafasi ya kufanya nini zote za kuwasaidia kuhuruhia na kusafiri. Msingi inaamini na alichafua suti yake, jini inaongea kwenye swali \"effect ilikuwa nini?\"\n\nKwa hii, jawaab kumpata ni kuwa alizipata kufuliwa kwa dobi. Hii inaamaanisha kuwa mtu anapeleka nafasi ya kufanya mawimbi ya kuwasaidia, katika uzoi huu, kuwasafiri. Kuna waz",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about \"effect\" and instead provides an unrelated and nonsensical explanation."
+  },
+  {
+    "question_id": 39,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, mtoto wake (child) alitabasamu. \"Chagua chaguo la busara zaidi\" (He/She kept crossing the road) yaani mtoto wake anapeleka kiuma na kila sita akipata riski ya kuwa nje ya road. Mama alimnyamazisha (mother was concerned) kwa sabab tuo.\n\nSwali \"cause ilikuwa nini?\" (Why was she/he doing that?) inaelewa na mtoto wake alitabasamu, loo tipa zuri na lala salama.",
+    "token_count": 143,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the cause and instead provides a confusing narrative that lacks coherence and factual relevance."
+  },
+  {
+    "question_id": 40,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nTaulo katika mwanga ilikuwa nililiweka taulo katika mwanga, ilikuwa ni sawa. Taulo inaonyeshwa kama \"kimiminika\" inasimama na msingi. Hii inaonyeshia kuwa taulo inaelewa na fahamu kwa hii, na kuna upaki wa kuwasiriana na kimiminika.\n\nEffect ilikuwa nini? Taulo inaonyeshwa inaangazia kimiminika, ilikuwa ni sawa na kuwa mwanga ulibakisha mnato. Taulo inaelewa inaandika kwamba msingi inaumba na inaonyeshwa katika taifa ya kuwa nini inaonyeshwa na taulo.",
+    "token_count": 182,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about \"effect\" and instead provides an unclear and unrelated explanation about a towel and fluid dynamics."
+  },
+  {
+    "question_id": 41,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna jawaabia swali ya \"effect ilikuwa nini?\", jawaab koja ni A, \"Aliachia usukani.\" Hii imeshindika nini kila msingi akipata muelekeo wa baiskeli yake.\n\nMsichana alipoteza muelekeo wa baiskeli yake, ilivyo kuwa nini ilikuwa inaona. Kila msingi akipata muelekeo, akipata nafasi ya kuwasubira na kusukani. \"Aliachia usukani\" inaama msingi alikuwa anasubira nafasi ya kusukani, na akipata madawa ya kuwasubira na ukuta.",
+    "token_count": 178,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about \"effect\" and instead provides an unclear narrative unrelated to the concept of effect."
+  },
+  {
+    "question_id": 42,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A\n\nUmeamini kuwa mshirika wa mauzo (A) ni jambo lami, kama anaitwa \"Mshirika wa mauzo alimtuhumu msichana kwa kuiba.\" Hii inasorota kuwa mshirika au mtu ambi anapeleka msichana akiweka bidhaa ndani ya pochi lake.\n\nSwali \"cause ilikuwa nini?\" (Wajinga kuwa nini?) inasorota penda ya kuwaaso na kuna taka ya uzito wa mshirika wa mauzo. Kuna wazwa wa mshirika kuwa alikuwa amesafiri na msichana, amesimama bidhaa, ama amesimama pochi aliyoipenda.\n\nKwa nini?\n\n- **Mshirika wa mauzo (",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the cause and instead provides an unclear narrative about a sales associate and a girl, which does not directly relate to the inquiry."
+  },
+  {
+    "question_id": 43,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alikunya dawa ya kifua.**\n\nKuna matumla na kuna jambo kama \"chagua chaguo la busara zaidi\" (tumebia nje ya kuna kura zaidi), msingi inaangazia kichwa cha mwanamme kilipata maumivu (mwanamke amesafiri na amekaa maumivu). Swali \"effect ilikuwa nini?\" (tulivyo kila mtu ni wanafunzi wa nini?) inaaskia nyota kama \"alikunya dawa ya kifua\" (nikupinduka nafasi ya kifua).\n\nOption B (\"Alimeza aspirini\") si sawa, lakin sijawezu kama jawaabu hii ya swali. Aspirini inaendelea nafasi, lak",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides an unclear and unrelated statement."
+  },
+  {
+    "question_id": 44,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na maendeleo yote, jawaabini ilivyo ni A. \"Alimtuhumu yeye kwa kukosa uaminifu\" (Aliyefuata na utamaduni ya uaminifu) imaanisha kuwa mume alipata jinsia ya kuhusiana na mkewe (kula chagua chaguo la busara) na hii yariyje katika uaminifu. Hii ni matumla na maendeleo ya kuhusiana na mkewe, kuna uzizi na kuna jinsi ya kutumika.\n\nOption B, \"Alikiri uzizi wake kwake,\" si imaana ni kuna jinsi ananunua uzizi, lakini hii si mto ya matumla ya kuhusiana na mkewe, kwa hakika, hii ni j",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides an unclear and convoluted explanation that seems unrelated to the original query."
+  },
+  {
+    "question_id": 45,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na kuhusiana na kiwania chagua chaguo la busara zaidi, msingi inaelewa nyiga alipaa kumuelekea kijana. Hii inasorota kuwa kijana alikimbia. Option A, \"Kijana alikimbia,\" ni jawaab yahudi, kuna matumla na kiwania hii, karini kijana ni mto wa kimbia ya nchi ya kuwasa dia.\n\nSwali ya \"effect ilikuwa nini?\" inaelewa kuwa msingi angarria nini alipata kutoka kijana kuwa alichuma ua (option B). Sio sijambo, msingi angarria kuwa kijana alikimbia, nini inaonyoza kama nini inaelewa kutoka",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides a confusing narrative that lacks factual coherence."
+  },
+  {
+    "question_id": 46,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKunaendelea, ugamize msingi hii inaelewa nafasi kwenye chumba cha nguo ilimwishia mwanamke. \"Chagua chaguo la busara zaidi\" imaanisha nini ya kuwa mwanamke asimama nguo ya kila mtu.\n\nSwali ya \"effect ilikuwa nini?\" inaelewa kuwa mtu ananunua kama nini kaa haraia kila mtu kama mwanamke anapata nguo mingi. Option A, \"Alipata nguo mingi,\" inaamaana mwanamke anapata nguo ya kila mtu, jinsia ya kuwa anasimama, nafasi inayekuwa na kama niina.\n\nOption B, \"Alikunja ng",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides an unclear and fragmented explanation."
+  },
+  {
+    "question_id": 47,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKunaendelea kunaongea, jawapo kubwa inaongea chagua chaguo la busara zaidi ni mwanamke alisafiri nchi za nje. Hii inaonyoza idea ya kujiifunza jinsi ya kuchora. Mwanamke amesafiri nchi ya nje, ilikuwa ni sawa na kutoka nchi ya kawaida, inaonyoza kuhusiana na utamaduni, mifano, na jinsi ya kuwa nafasi mkubwa.\n\nJawapo ni vitu viwango vya kuhusiana na utamaduni mwengine, sijambo anasafiri nchi ya nje. Hii inaonyoza kuhakika jinsi ya kutumika na uendelee katika situasi ya kuwasaidia na",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unrelated narrative about a woman traveling abroad."
+  },
+  {
+    "question_id": 48,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Karibu apotee katika bahari.**\n\nUmeamini kuwa \"Chagua chaguo la busara zaidi\" (Nitaenda wakaenda nyota zisimama) kumaona nini inayoangazia. Msingi amesimula nafasi ya kuuona usikivu wake (mali moja ya kuuona nyota), swali inasoroka \"cause ilikuwa nini?\" (Wajinga wanaangazia nyota hii inasoroka nini). \n\nKwa hii, jawaab \"Karibu apotee katika bahari\" (Tafadhali, nitaenda wakaenda nyota zisimama katika samani)  imeshindika:\n\n* **Nyota zisimama** (bahari) inayotolewa katika samani ya m",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unrelated and nonsensical statement."
+  },
+  {
+    "question_id": 49,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Alifunga utepe.**\n\nKuna matumla na matumaini mzuri, jawaab kuna tazao kwa sababiku ilikuwa nini. Msichana alivuta kwa haraka utepe kutoka kwenye nywele zake, na hii inaongea alifunga utepe. Utepesi wa kitoto ilikuwa ina ngua msingi akisimama, na matendo ya kuna tazao kwa sababiku ilikuwa nini ina tuma jawaab.\n\nKwa hakika, jawaab A (\"Alifunga utepe\") ni kuhusiana na sababiku ilikuwa msingi alivuta kwa haraka, na hii ina ngua utepe.",
+    "token_count": 183,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question \"cause,\" and instead presents a disjointed narrative that lacks factual clarity."
+  },
+  {
+    "question_id": 50,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "**Jibu (A):**\n\nKuna jambo nini, swali mtu amesimama? (Why did you ask such a question, human? - a playful response to the question)\n\nKila mtu anasimama, akasorota na mtu ananunua. (Everyone has their own reasons, and I have mine.)\n\nNini? (What? / Why?)\n\nKama nini inaonyo, hii ni akasorota ya akili ya mtu. (If you must know, this is a matter of personal choice.)\n\n**Jibu (B):**\n\nSijambo, lakini nini inaonyo? (No, but what do you mean?)\n\nNini inaonyo ni nini. (What you mean is what?)\n\nSijambo kama nini inaonyo, lakini nini in",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question \"cause\" and instead provides a series of unrelated and nonsensical statements."
+  },
+  {
+    "question_id": 51,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Mfanyakazi mwenziwe alipandishwa cheo.**\n\nKuna jambo nini ilikuwa chagua chaguo la busara zaidi? (Why did the task take longer than expected?)\n\nUelewano wa msingi imeshindika kwenye kuwatilisha nini (the worker's statement indicates that):\n\n* **Mwanamme alikuwa na wivu na mfanyakazi mwenziwe:** The worker had a strong desire to complete the task.\n\nTafasi, mfanyakazi mwenziwe alipandishwa cheo (the worker was distracted or had other priorities),  sana nini ilikuwa nini? (so why did it take longer?)\n\nOption A yorodha sababina ya kuna jambo nini.  Pandishahia cheo inaama ni kuwa",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about why the task took longer than expected and instead introduces unrelated concepts."
+  },
+  {
+    "question_id": 52,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na kuna swali, jawaabini inaelewa ni A: \"Muhalifu aliweka bunduki chini.\"\n\nHii yaelee kuwa muhalifu (hii ni mtu amano na hii ni uunja) alikuwa amesimama kumpiga bunduki (alatilico na kama ni mtu, hii ni uunja) muathirika (sito ya kawaida). Effect ilikuwa muhalifu aliweka bunduki chini, yaani alikuwa amekaa hii ka nje ya bunduki.\n\nOption B (\"Muhalifu alinyanyua juu mkono wake\") si jini la kuwa mtu ananunua bunduki, hii si sio ya kawaida kama anasimama kumpiga.",
+    "token_count": 195,
+    "label": "Hallucinated",
+    "reason": "The model's response does not accurately address the question about the effect, instead providing an unclear and irrelevant explanation."
+  },
+  {
+    "question_id": 53,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Wazazo:**\n\n1. **Chagua chaguo la busara zaidi:**  Kuna matumaino kuwa nini inaona hii inayofika mawimbi ya busara (kuna nini inaona hii inayopita).\n2. **Msingi: Mwanamme alikwenda kwa kinyozi:**  Msingi inaonyeshe sio ya kina (mwanamme)  inayekaa kinyozi (inayekaa kuwa nini).\n3. **Swali: cause ilikuwa nini?:**  Nyota imesimama (msingi)  anaona hii nini (busara) na hii inaonyeshe (mwanamme).\n4. **A: Alikuwa akikuzikuza nywele zake:**",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the cause and instead provides an unclear narrative that does not logically connect to the inquiry."
+  },
+  {
+    "question_id": 54,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Hakuyafikia.**\n\nKuna matumla na msingi, kuna jawaabu iliyowekwa na swali \"effect ilikuwa nini?\" (tafasi ya kina, nini ni nia?)\n\n\"Chagua chaguo la busara zaidi\" (tumekaa nyota zote za kina) na \"Mwanamke aliweka malengo yake aliyoyataka\" (mwanamke hii alipata malengo ya kina) seele ya kuwa nini inaonyo. Tafasi, hakuyafikia (nikupenda kunaona) ina nguvu kunaokwa na kina. \n\nTafasi, jawaabini iliyowekwa (B) \"Alifanya kazi kwa juhudi\" (alaantua njia ya kina) si",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the \"effect\" and instead provides an unclear and unrelated discussion."
+  },
+  {
+    "question_id": 55,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na kuna jawaabo, \"Wapinga vita waliandamana\" ni jawaabo ambazini. \"Chagua chaguo la busara zaidi\" imaanisha kuwa msingi imesindika kuna tazao na kuna kuwa nini inasindika. Vifo vya raia kutoka kwenye vita yaliongezeka maradufu ni sawa, lakini kuna tazao kwenye vita walio nguvu kuhusiana na kuwasaidia wakaiva mchanga.\n\nOption B, \"Wapinga vita walifanya gwaride,\" haifai kula kuwa nini inasindika, karuti ya kuwa vita walio nguvu, lakini si yahudi tazao na kuwasaidia wakaiva mchanga.",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting disjointed and unclear statements."
+  },
+  {
+    "question_id": 56,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Aliamuriwa afanye huduma za kijamii.**\n\nKuna jambo la sita ambapo mwanamke alitiwa hatiani kwa kosa dogo, kama nini lala salia. Option A ni jambo mostaufi kuna, kama nini mwanamke alikuwa amesimama. Huduma za kijamii ni vitendo wa kufanya kazi ya kila mtu, si mwanamke amesimama, alipata fupi kwa kuwa nini dogo ilikuwa haramu kama aliyokaa hatia.\n\nSwali ya \"effect ilikuwa nini?\" inaamula nafasi ya kuona kama hii hatia amesindika mwanamke. Option B inaongea mambo ya waliohukumiwa kifo, lakin jambo A",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the \"effect\" and instead provides an unclear and unrelated narrative."
+  },
+  {
+    "question_id": 57,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A (Alianza kuficha shajara yake).\n\nKuna nini?\n\nKama msichana alimkamata kaka yake anasoma shajara yake, effect ilikuwa kuna faham kuna kuficha shajara. Hii inaambie msichana kuokoa kaka yake na kufanya njia mkubwa kama anasoma shajara. Kuna koima angao ya kaka yake, ilivyo chaguo cha shajara, na kuna jirani mkubwa kama anasoma.\n\nOption B (Alipata shajara mpya) si nia ya kuna jirani mkubwa na kuna upatiliza shajara ya mawimbi, na si nia ya kuna kuficha shajara, lakini hii si n",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides a confusing narrative that lacks coherence and factual relevance."
+  },
+  {
+    "question_id": 58,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A. Gereji ilikuwa wazi.\n\nKuna jambo nini ambanini chagua chaguo la busara zaidi? Katika njia ndogo ya kwenda gereji, msingi ilikuwa niliegesha katika njia ya kuwatembelea. Swali ya \"cause ilikuwa nini?\" inaamini kuwa nyere ya njia ya kuwatembelea ilikuwa imesindika.\n\nKuna dwala ya kuwatembelea, gereji ilikuwa wazi, na matendo ya kuwa nini ambanini akisimama. Msingi inaamini kuwa, hadi ya njia ya kuwatembelea, gereji ilikuwa imesindika, laakiwa nini ambanini akisimama.",
+    "token_count": 191,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the cause and instead presents a confusing narrative that lacks factual coherence."
+  },
+  {
+    "question_id": 59,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Alikuwa na kiharusi.**\n\nKunaozara kama \"chagua chaguo la busara zaidi\" (nimepata mchanga kama inaendelea kuwa nje ya busara), msingi imesahau kuwa \"mwanamme aliputeza uwezo wake wa kuzungumza\" (mtu anapeleka kuwa akisimama na kuwasohia). Swali \"cause ilikuwa nini?\" (tafasi, nini imeshiingia hii?) inaamini kuwa mtu anapeleka kuwa akisimama inaendaelea kiharusi.\n\nKiharusi inaonyeshea uwezo wa kuzungumza, sio na pumzi kubwa (jina linafuri na B) inaendelea kama s",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the cause and instead provides an unclear and convoluted explanation that does not accurately reflect the nature of a stroke or its effects."
+  },
+  {
+    "question_id": 60,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Ubadilisha:**\n\nKuna jawa kama \"Chagua chaguo la busara zaidi\" (Nimenua chaguo/stiri za busara). Msingi inaaskia \"Niliijaza tena chupa yangu ya maji\" (Nilikwenda kama nini?/Nini inaonyo hii?). \n\nTawekelea, A inaambaza kiwango cha \"Nilikunywa maji yote ndani yake\" (Nilikwenda kama nini/Nini inaonyo hii? -  tena, inasimama maji).  Hii inasumaliza kuwa msingi  anaangazia kuwa nini inaonyo na kama niliweka katika jokofu (B) si sio nafasi.",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question \"cause\" and instead provides an unrelated and confusing explanation."
+  },
+  {
+    "question_id": 61,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "**Jibu (A):** Tetemeko la ardhi lilipiga jiji. (Wasiokoe, ardhi ya miti ilipigatika jiji, inaonyeshe sita kiwango cha uhalifu.)\n\n**Jibu (B):** Kiwango cha uhalifu katika jiji kiliongezeka. (Hii inaeleza nyasae ya kiwango cha uhalifu, iliyopita katika jiji, na inaonyeshe sita alipizwa na msingi wa poromoka.)\n\n**Swali:** Cause ilikuwa nini? (Hii ni swali ya kuwasaidia kulaona nini ayelezwa na msingi na ardhi.)\n\n**Tafasi:**\n1. **Msingi** ina kati ya mji liliporomoka inaonyes",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not clearly identify the cause of the earthquake, instead providing vague and unrelated statements about crime levels and a collapse."
+  },
+  {
+    "question_id": 62,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, \"Chagua chaguo la busara zaidi\" (Nile tutaona nyota za busara zuri zaidi) ima anza ya kuwa wachejazi baharini walirudi pwani. Hii inaamaanini nini? Wale walijawa na unyevunyevu wa maji.\n\nSwali ya \"effect ilikuwa nini?\" (Tafasi ya kuwa hii ni vitu vya nini?) inaamaanini kuwa wale walikuwa akisimama na kila sita ya kuwasaia wale walirudi pwani. Kila mtu akitafika na maji, akisimama na kila sita ya kuwasaia, ilivyo kuwa nyanza inaamaanini kuwa wale walikuwa",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the \"effect\" and instead provides an unclear and unrelated narrative."
+  },
+  {
+    "question_id": 63,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumainia kama leseni ya dereva imemaliza muda, hii inaamaanisha nini ilikuwa nini. Leseni ya dereva inaukuma muda ya matengenezo ya mwanamke, ilikuwa ni vitu vyao vyo vya kufahamisha na kufurani.\n\nHii inaongezwa na alipata ajali ya gari, juma la kuwa nini ilikuwa imepata. Ajali ya gari inaamaanisha nini ilikuwa msingi wa mwanamke anapendeka na nini ilikuwa inaonyocha.\n\nSito hii inaindika kwamba msingi wa mwanamke ilikuwa katika sehemu ya matengenezo, na leseni ya dereva iliku",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an incoherent narrative about a driver's license and a car accident without clear relevance."
+  },
+  {
+    "question_id": 64,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): Rafiki yangu alinisamehe.\n\nKuna jambo ambazo chagua chaguo la busara zaidi, kuna swali kuwa niliomba radhi kwa rafiki yangu. Hii imeshasa dia msingi ya kuwasiriana na uambie. Option A ni jibu mkubwa kuna akisoma, kuna kila mtu anasamehe. Rafiki yangu alinisamehe, yaani alikuwa amesafiri na amekaa nchi ya kila mtu, amesimama na amekaa maendeleo ya uambie.\n\nKuna swali kuwa \"effect ilikuwa nini?\" (Wajingine, kuna upakwa na kuna jifunza nini?) hii inasorota kwenye nini ilivyo. Kuna jambo amb",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an unrelated narrative about forgiveness and communication."
+  },
+  {
+    "question_id": 65,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na kuna swali, jawaabu ilivyo ni kuhusiana na nia ya samaki. Option A ni jawaabu yangofu kuna tanzania, kuna matumla, samaki waliruka kutoka nje ya tangi. Hii inaonyeshia kuwa samaki ilikuwa hii ya nje ya tangi, na matendo ya msingi ilikuwa mtoto alinyunyiza chakula cha samaki.\n\nOption B ni sijambo, karini samaki waliogelea kuelekea chakula, ha na nini ilikuwa umeamini.",
+    "token_count": 154,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides an unclear narrative about fish and feeding, which seems unrelated to the original inquiry."
+  },
+  {
+    "question_id": 66,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Tafasi:**\n\n\n* **Chagua chaguo la busara zaidi:**  Kuna tanzania kama nini inasimama (kuna nini inasogea vitu vyake).\n* **Msingi: Mwanamke alivaa viatu vyake:**  (Mali ya) nyanza inaonyeshea kuna nini mwanamke amesogea vitu vyake.\n* **Swali: cause ilikuwa nini?:**  (Tazindika) nini kuna wakila na vitu vyake? (Walao wakati wa nini amesogea vitu vyake?)\n* **A: Alijua kila mmoja kwenye sherehe:**  (Malaika ya) nini ilikuwa na sherehe? (Malaika ya)",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"cause\" and instead presents disjointed phrases that lack coherence and factual relevance."
+  },
+  {
+    "question_id": 67,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu (A au B): **A na B**.\n\n**Tafasi:**\n\n1. **Chagua chaguo la busara zaidi:**  Kuna wanaambiana, sita kila chagu (tano) inayotumwa na busara (mali).\n\n2. **Msingi: Mkufu ulikuwa mbali mbali:**  Msingi inaonyeshea kuwa mkufu (maendeleo) ya kila chagu akitumwa na busara yiliyowekwa zaidi.\n\n3. **Swali: cause ilikuwa nini?:** Msingi ameleta kama nyota inayowekwa zaidi, wanaambiana kuwaasili ko na kinaunika (kaiva) ya mkufu.\n\n4. **A: Mkufu ulizongwa kuzunguka tairi:**  Jaw",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the cause and instead presents unrelated and unclear information."
+  },
+  {
+    "question_id": 68,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumainia kwanza kora nguvu ya chagua chaguo la busara zaidi, msingi inaamini kwenye samaki alidonoa mshipi. Hii inasorota kila mtu au mtu ananunua nini inasituna na kora nguvu ya chagua.\n\nMvuvi alimvuta samaki kwa mshipi inaonyeshia kuwa mshipi ilikuwa imesimama na kora nguvu ya chagua. Hii inaendaa kuna taka ya kufahamisha nini inasituna na chagua na busara, na kuna matumainia kuwasaa kora nguvu ya kufanya mshipi kuwa ni sawa.",
+    "token_count": 187,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting nonsensical statements."
+  },
+  {
+    "question_id": 69,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Tafasi:**\n\nKuna jambo nini ambapo chagua chaguo la busara zaidi? (Why did you leave your job earlier?)\n\nMsingi waajiriwa (the worker) amelee kuongea shirikisho (they decided to leave).\n\nSwali ya cause (the question \"why?\") inaamini kuwa walitaka mazingiza mazuri ya kufanya kazi (they wanted a better environment to do their work) **au** muajiri wao aliongeza mshahara (or, the immigrants increased their demands).\n\nTana tena, jawaabkiwa A (Walitaka mazingiza mazuri ya kufanya kazi) yaitanula kula kulia, inasorota kuwa nini imesindika kama njia ya kutakaa chaguo la",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the cause of leaving a job and instead introduces unrelated concepts and unclear language."
+  },
+  {
+    "question_id": 70,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matone ya jasho yalitiririka kutoka usoni mwangu, nini inaonyeshe? (Kuna aina ya jasho ambaka ya usoni mwangu, nini inaonyeshe?)\n\nKwa hakika, jawapo ya A ni kuhusiana na efekti ya kuwa chagua chaguo la busara zaidi. Kuwa chagua chaguo inaonyeshe kuwa nini ambaka ya usoni mwangu ikitiri, kila nini inaonyeshe kwa msingi. Hii inaelewa katika swali ya \"effect ilikuwa nini?\" (Effect ni nani?)",
+    "token_count": 158,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect of sweat on the face and instead provides an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 71,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\nKuna matumla na matumaini mkubwa katika swali hii. \"Aliisalimia hadhira\" inaamaanisha kuwa msingi imesimama na kuwasubira sauti ya mwanamme ilikuwa na hadhira. Hadhira ina nguvu kula sauta, na kuna matumla ya kuwasubia sauti.\n\nMwingi, \"Alizungumza kwa kipaza sauti\" si mtu ananunua hadhira, lakini inuumbe ya kuwasubia sauti ni nini ina nguvu kula sauta.",
+    "token_count": 154,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unclear and unrelated explanation about an audience and sound."
+  },
+  {
+    "question_id": 72,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Nilipiga magoti barabarani.**\n\nKuna jini la chagua chaguo la busara zaidi, kuna msingi ina nilihisi raha (ina kuwa njeja). Swali ina askia kuwa effect ilikuwa nini, jawabinga ni yini:\n\nA: Nilipiga magoti barabarani. (Wasiokaa kuwa njeja na magoti barabarani, hii ina kula nafasiwa kuna jini la chagua chaguo la busara zaidi.)\n\nB: Nilijifunika na blanketi. (Hii jina la kula nafasiwa kuna jini la kufungua nafasi ya msingi, laakiin hii haifai kula chagua chaguo la busara zaidi kama njeja.)",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about the effect and instead provides unrelated statements that do not clarify the intended meaning."
+  },
+  {
+    "question_id": 73,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**\n\n**Tafasi:**\n\nKuna jawaab ya **A**: \"Alionyesha misuli yake mbele ya kioo\" (Alikwa ni sito ya kuna tazao na kuna uunjaa). \n\nHii jawaab inasorota kuwa chagua chaguo la busara zaidi (nikupenda kuna tazao na kuna uunjaa). Msingi amesegea kuwa vyomba vya uzito alikoroma (nikupenda kuna kura na kuna upatiliza). Jawab A inasorota kuwa kuna tazao na kuna uunjaa, jinsi nini inasorota kuna chuma juu ya kichwa chake (kuna tazao na kuna uunjaa).",
+    "token_count": 192,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting nonsensical phrases that do not convey factual information."
+  },
+  {
+    "question_id": 74,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**.\n\nKuna matumla na kuna jambo kamo, kuna msingi amesumaliwa na jambo la chagua chaguo la busara zaidi. Mwanamke aliacha kukimbia ilikuwa alipata kichomi ndani ya ubavu wake.\n\nHii jambo ya \"alipata kichomi ndani ya ubavu wake\" imetumwa na mwanamke, inasorota nini mguu ya kichwa cha nguvu. Kila mtu anapeleka mguu ya kichwa, sio na nguvu mpya, sio ni kichomi ndani ya ubavu (kila mtu anapeleka mguu ya kichwa akisogea nafasi zote za kuwasaidia).\n\nSia kuna matumla na kuna j",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not address the question \"cause\" and instead presents a nonsensical narrative that lacks coherence and factual relevance."
+  },
+  {
+    "question_id": 75,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na maendeleo mchanga katika haki ya kuwatumia mpira. \"Chagua chaguo la busara zaidi\" inaamaanini nini ya kuwa mchezaji alipiga mpira kuelekea shimoni. Hii inasorota kuna matumla ya \"Mpira uliingia shimoni\", inasema mpira (simba) ilikuwa nini (imeshindwa ya kuwatumia) na akasorota kuna maendeleo ya kuwatumia mchezaji.\n\nOption B ni si sawa, lakin inasorota kuna matumla ya \"Mpira ulirudi kwa mchezaji\", jikuu mpira inasorota kuna maendeleo ya kuwatumia mchezaji, hii ni mat",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides an unclear and unrelated discussion about a soccer scenario."
+  },
+  {
+    "question_id": 76,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A au B): **A**\n\nKuna jinsi nini kunaasilia kama \"rafiki yangu alinitambulisha kwa mwanamme\" (rafiki ya mine alitambulisha na mwanamme) na \"rafiki yangu alisimama kwa ajili yangu\" (rafiki ya mine alisimama kwa sabab ya ajili ya mine).\n\n\"Chagua chaguo la busara zaidi\" (tumebwa mchanga kama nyota imeshindwa zaidi) na \"Mwanamme alianza hoja na mie\" (mwanamke amesumalisha hoja na mtu) yorodika kuwa rafiki ya mine anasimama kwa mwanamme kuwasokota na kuwasafiri.\n\n\"Swali\" (tano) na \"effect\" (niifani) yorodika kuwa",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides unrelated and confusing statements."
+  },
+  {
+    "question_id": 77,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Maji yalichemka.**\n\nKuna matumainia swali ya \"cause ilikuwa nini?\", jawaab koja inaeleza nini ilikuwa chagua chaguo la busara zaidi. Msingi inaeleza kuwa mvuke ulitoka nje ya chngu cha maji, hii ni nia ya mimi na vitu vyao. Maji yalichemka (maji inayowekwa) ni jina kokaa si mimi na vitu vyao inayowekwa na changu cha maji, na karibuni inaweza kufanana na changu cha kufumana.",
+    "token_count": 159,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the cause of boiling water and contains nonsensical phrases that do not relate to the question."
+  },
+  {
+    "question_id": 78,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na kuna jawaabo, kuna matumla ya \"harufu ya uoza ilijaa jikono.\" Hii inasorota kuwa, kama chagua chaguo la busara zaidi, hii ni nini ambapo inasorota kuwa msingi ni nilioka pai ya tofaa. \"Uoza\" inasorota kuwa msingi inaweza kuwa nilioka, lakini hii inasorota kuwa nini inaweza kuwa nilioka pai (kama nilioka kama nilioka kama inaendelea).\n\nSwali ya \"effect ilikuwa nini?\" inasorota kuwa inasili kulaimita nini kama chagua chaguo la busara. Jawaabo ya \"harufu ya kupendeza il",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 79,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n\"Chagua chaguo la busara zaidi\" (Nitaenda nje nje kunaona karo)  kunaazaa nini ya nini.  Msingi inaelewa kuwa wanafunzi walitoka darasani, watoto wao wamepata masikio ya kengele ililia. \n\nOngo ya swali \"cause ilikuwa nini?\" (Wakati wa nini hii kinafuri?),  \"Kengele ililia\" (Masikio ya kengele) ni jawaab kubwa.  \n\nMwalimu alitoa kazi ya nyumbani (ni jawaab kama elezo) si mtu amano, lakini  kengele ililia ni nyasahau ya uzito wa masikio ya kunaona karo na kunaazaa n",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the cause and contains nonsensical phrases that do not convey a coherent answer."
+  },
+  {
+    "question_id": 80,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alianza kufanya mazoezi zaidi.**\n\nUguzo wa \"chagua chaguo la busara zaidi\" imaana ni kuwa nini inaona nyota zote za kuwasaa (kula msaada, kula mawimbi, na kula mtu) inayofariki. Msingi inaangazia kuwa nini inaona kuva nafasi (kuvuta sigara) inayekaa mazoezi.\n\nSwali \"effect ilikuwa nini?\" inaamini kuwa mtu anaeza kuwa nini kinafani kwa kuwasaa na kuva nafasi. Jawabka, opsi A, \"Alianza kufanya mazoezi zaidi,\" inaelewa kuwa kuwasaa na kuva nafasi inayofariki mazoe",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect, instead providing an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 81,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Chombo hili lilitisha.**\n\nKuna matumla na msingi, chagua chaguo la busara zaidi, na msingi inaambaza na chombo kwenye hifadhi ya pumbao. Effect ilikuwa chombo hili lilitisha (chombo hili alikuwa na taati ya kuwirisha).\n\nKama chombo kunaambaza na hifadhi ya pumbao, hii inaonyeshea kuwirisha nafasi ya pumbao, kila nini inasimama na hifadhi ya kuwirisha.",
+    "token_count": 141,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about \"effect\" and instead provides unrelated and unclear information."
+  },
+  {
+    "question_id": 82,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Walishinda.**\n\nKuna matumla na maendeleo ya msingi, \"chagua chaguo la busara zaidi\" (nile sita nini cha busara zaidi) inaamaanini kuwa msingi wao inasimama na kila sita inasita. \"Timu ilidanganya mashindano\" (timu ilikuwa imepata mazimio) imenelea kuwa msingi wao inasimama na kila sita inasita kwa maendeleo yao.\n\nSwali \"effect ilikuwa nini?\" (tulikwa nini hii?) inaamaanini kuwa mtu ameyeleza kuwaasiliko ya maendeleo ya msingi. Jawaab \"walishinda\" (inavimsa) imenele",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about the \"effect\" and instead provides an unrelated statement about winning, which does not align with the inquiry."
+  },
+  {
+    "question_id": 83,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**.\n\nKuna matumla na msingi, alitamani iwe ni kiangazi (Alikazia macho anga la usiku) inaonyo kuna wakati nini ilikuwa nini. Option A ni jawaab yagutauki, kuna akisoma kwenye kila mtu, hadi ambapo alikaria ilikuwa nzuri (alifikiria ilikuwa nini) bali alikazia macho ya usiku.\n\nOption B si sawa, lakini jawaab yagutauki ni A, kuna akisoma kwenye kila mtu na kila mtu alikaria ilikuwa nzuri, bali alikazia macho ya usiku.",
+    "token_count": 168,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question \"cause\" and appears to be nonsensical."
+  },
+  {
+    "question_id": 84,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Ulipoa kwa haraka.**\n\nKuna matumla na msimu ya kuwasaia msingi ya kujaa na kuwatembelea. \"Chagua chaguo la busara zaidi\" inaamaanisha kuwa msingi imesimula kula kufika mlango mkubwa (ngozi). \"Mkwaruzo ndani ya ngozi yangu ulikuwa kubwa\" inaeleza kuwa msingi imesimula na imekaa mlango mkubwa, jinsia ya kuwa nini imesindika kuwasaia haraka.\n\nSwali ya \"effect ilikuwa nini?\" inaamini kuwa msingi imenelea kuwatembelea kwa haraka, kama nini vilivyo.\n\nKwa hii, jibu (A",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides an incoherent explanation that seems unrelated to the query."
+  },
+  {
+    "question_id": 85,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna jambo nini ambapo chagua chaguo la busara zaidi? Rafiki yangu alinifanya nimsubiri. (Wanaingia nini ambapo nimepoteza uvumilivu wangu, rafiki yangu alikuwa amesindika na nimsubiri ya kuwasaa.)\n\nHii jambo ya kutoka kuwasaa kukuwa nini ilikuwa nini, na kuna wazwa nini ambapo nimepoteza. Rafiki yangu alinifanya nimsubiri inasindika, loo tuzwa na wakati ya kuwasaa.",
+    "token_count": 151,
+    "label": "Hallucinated",
+    "reason": "The response does not address the question \"cause\" and instead provides an incoherent narrative unrelated to the topic."
+  },
+  {
+    "question_id": 86,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A\n\nKuna matumla na swali \"cause ilikuwa nini?\", jibu \"Wanandoa walitangaza kuwa wametengana\" inaeleza sababiku kama nini familia iliwapongeza wanandoa. Option A ni jambo mkubwa kama nini wanandoa walitangaza kuwa wametengana, tuliindika sababiku kama nini wamepata mtoto (na maendeleo ya kina) iliwapongeza wanandoa.\n\nOption B inaeleza sababiku difa, lakini ha niajua sababiku kama nini wanandoa walitangaza kuwa wamepata mtoto.",
+    "token_count": 167,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about the cause and instead provides an unclear and unrelated explanation about a couple's announcement."
+  },
+  {
+    "question_id": 87,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Kuvasaidia:**\n\nMsingi hii inaelewa na kuwasoroka kama \"chagua chaguo la busara zaidi\" (nakaa tundaa chaguo kama nini inasoroka). \n\n* **Kundi lilibakia makumbusho** (Nini inaelewa na kuwasoroka maonesho?)  -  Nyota inaelewa na kuwasoroka maonesho ya nini?\n\n* **Swali** (Nini inaelewa?) -  Inasoroka nini?\n\n**Tafasi:**\n\n* **A: Walichukua picha za maonesho.** (Walao wakasoroka picha ya maonesho.) -  Nyota hii inaelewa na kuwasoroka maonesho, lak",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unrelated and unclear explanation."
+  },
+  {
+    "question_id": 88,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Nilimuomba rafiki yangu anielekeze sehemu ya tukio.**\n\nUmeamini kuwa kuna tiketi ya ziada kwa ajili ya tamasha, rafiqi yangu anielekea sehemu ya tukio (nafasi ya kuwasaa). Hii inaonyeshia kuwa hii ni sito ya kuwasaa na inuumbe ya kuwasaa kutoka na hii inaonyeshia kuna jinsi anguza kama anielekea sehemu ya kuwasaa.",
+    "token_count": 133,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"effect\" and instead provides an unrelated narrative about seeking directions to an event."
+  },
+  {
+    "question_id": 89,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A au B): **B: Niliunguza ulimi wangu.**\n\nKuna wakati ambazini, msingi inaamini kwenye kuwasaia kaas (kaas ya kahawa moto) niitendelea kuhariri ulimi wangu (kula sita ya kuwasaia). \"Niliunguza ulimi wangu\" inaongezwa na \"nikipiga ulimi wangu\" inaamtia kuna jinsi nini inasimama kama nje. \n\nKwa hii, jawaab kama B yunguvu kuwa msingi inaamini kwenye kuwasaia kaas, inaungua ulimi wangu (inasaidika na \"niliunguza\") kama nje.",
+    "token_count": 183,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect and instead provides a confusing and unrelated explanation."
+  },
+  {
+    "question_id": 90,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi hii, kuna matumla ya mama yake alimuangalia joto lake. \"Chagua chaguo la busara zaidi\" inaamaan nini ya kuwa mama yake amekaa joto katika paji la uso. Hii inasorota kuwa mama yake alimpeleka bustanini (B) lanapozitiza kuna matumla ya kuna angaria joto lake.\n\nSwali ya \"effect ilikuwa nini?\" inaamaan nini inasorota kama njia ya kuna angaria joto katika paji la uso na kuna matumla ya mama yake. Joto lake inaendelea kuwa mama yake amekaa, hii inasimama na kuna matumla ya kuna angaria nafasi",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the \"effect\" and instead provides a confusing narrative that lacks factual coherence."
+  },
+  {
+    "question_id": 91,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na swali, jawapo ni kuhusiana na **sifa ya kazi**. \n\n* **Chagua chaguo la busara zaidi**  (Nimemtaa asili ya mitatu ya kiti cha busara zaidi)  imenelea nini?  Wa nini ambapo inaonyeshe sifa ya kazi.\n* **Mwanamme alipata shahada** (Mtu amesafiri  alipata  shahada ya kiti cha busara)  imenelea  nini? Shahada inaonyeshe  kila mtu ambapo katika kazi  inaumba  sifa.\n\nJawapo ya **A** ni vitu viwango vya kazi,  sio na vitu vya ofa. \n\n**Explanations:**",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the effect and instead provides unrelated information about job qualifications and degrees."
+  },
+  {
+    "question_id": 92,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "**Jibu (A au B):**\n\nKuna matumainia, hii swali imesha uriti jinsi nia kunaelewa na kunafika. Msingi inaamini vitu vyao vyo, na hii ni sito ya kuhimiza.\n\n- **Adui yangu alinilaumu mimi:**\n  - Hii yaelewa kuwa msingi inaamini nini ya kuhimiza. \"Alinilaumu mimi\" inaungua kuwa mimi inaumba na inaelewa.\n\n- **Adui yangu alifunga ngumi:**\n  - Hii yaelewa msingi inaumba ngumi (mali ya kufunga) na inaamini nini ya kuhimiza. \"Alifunga ngumi\" inaungua kuwa m",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not address the question \"cause\" and instead provides an unrelated and unclear discussion."
+  },
+  {
+    "question_id": 93,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**\n\n**Wyexplikacja:**\n\nMsingi inaongea nini: CEO wa kampuni alijiuzulu, tena swali inasoroka \"effect ilikuwa nini?\" (tafasi, \"nini ni wakini?\"). \n\nOngeo A inasumiliza kila mtu ananunua (wakurugenzi) na kuwa ni wanaadami na kampuni. Kila mtu ananunua kila sita kabisa, ilivyo kutoka kuwasaia CEO, inasikia utamaduni wa kufikiria na kufurani. \n\nOngeo B inaelewa sia nini inasoroka \"mbadala wake\" (kwa kila mtu ananunua).  Hii inaongea kila mtu ananunua kuwa ni w",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the \"effect\" and instead provides an unclear and fragmented explanation that lacks factual coherence."
+  },
+  {
+    "question_id": 94,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A au B): **A: Nilikwenda kulala mapema.**\n\nUele wa kuwasiri cha \"Chagua chaguo la busara zaidi\" ni kuwa nini msingi inayohitajia kuchoka. Kuna matumona, \"Nilikwenda kulala mapema\" ni jawaab koa kwa haasawa na kuwasaidia kuwa nini ilikuwa effect ya \"nilijihisi kuchoka\".\n\nMwalimu (B) ni jawaab koa inaelewa kuwa \"Nilikaa macho usiku kucha\", lakini jawaab A ni mzuri kama inaelewa kuwa nini ilikuwa result ya kuchoka.",
+    "token_count": 166,
+    "label": "Hallucinated",
+    "reason": "The model's response does not accurately address the question about the effect, as it misinterprets the context and provides an irrelevant explanation."
+  },
+  {
+    "question_id": 95,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Wazaa kinaelewa:**\n\nKama msingi imesahau kuwa baharia (mifano ya kulaimita vitu vyenje) ametengwa, hii inaamaanisha kuwa yaasiriko ilikuwa nini. \n\n* **A: Alikuwa amegundulika kuwa na ugonjwa:** \nKwa hakika, baharia ametengwa kwa sabab ya kuwa amegundulika (mifano ya kuna jinsi) na ugonjwa (vitu vyenje). \n* **B: Amepona kutoka kwenye ugonjwa:** \nHii ni jambo mkubwa, lakini si inaamaani sana kwa nitengwa baharia ametengwa. Baharia inasimama na ugonjwa, hakuna j",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question \"cause\" and instead provides an unclear and unrelated explanation about a sailor being quarantined due to illness."
+  },
+  {
+    "question_id": 96,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Aliweka stempu juu ya bahasha.**\n\nKuna matumla na matumla ya kisafariki, \"Chagua chaguo la busara zaidi\" ni sasa kazi ya kuwa nakuja mlango akisafiri. Msingi inaamini kuwa alikuwa amesindilia chini bawa la bahasha lenye unyevunyevu, tena alipata stempu juu ya bahasha. Hii inaongezwa na alipata jinsia ya kuwasafiri na kuna jifa mawimbi ya bahasha.\n\nSwali ya \"effect ilikuwa nini?\" inaamini kuwa mawimbi ya kuwasafiri na kuwasimama bahasha inaonyeshe. Aliweka stempu juu ya bahasha ni effect ya kuwa",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the \"effect\" and instead provides an unclear narrative that seems unrelated to the inquiry."
+  },
+  {
+    "question_id": 97,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumainia swali ya \"effect ilikuwa nini?\", jawaabini inaongea kwenye kila msingi tunapata.\n\nA. \"Waliwasikitisha mashabiki wao\" (Walipata jinsi ya kutozaa maendeleo ya upanga). Timu ilishindwa kwenye mashindano inaonyoza kuwa msingi wao walipata jinsi ya kutozaa maendeleo ya upanga. Hii inaambaza kuwasaa upanga ulimwengu wao na kuwaasila kuhusiana na maendeleo yao.\n\nB. \"Waliwasisimua mashabiki wao\" (Walipata jinsi ya kuwaasila na kuwasaa). Timu ilishindwa inaony",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides an unclear and disjointed explanation that lacks factual coherence."
+  },
+  {
+    "question_id": 98,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi hii, \"Chagua chaguo la busara zaidi\" (Nimwanga akasoroka nini za busara zaidi) inaamaanza kuwa mwanamke anapendeka na biashara ilifanikiwa. Hii inaonyoza effect ya kuwasaidia mwanamke akisimama na kazi yaajiri.\n\nSwala unapungua, \"Effect ilikuwa nini?\" (Inaamaanza nini za effect?) ni sawa, sijambo kuna tafasi kuwasiriana na biashara na kazi. Tafasi hii inaonyoza kuwa mwanamke anapendeka na kazi yaajiri, kama vilimwengu, kwa nini vilivuguliza nafasi ya",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an unclear and unrelated narrative."
+  },
+  {
+    "question_id": 99,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla (chagua chaguo la busara zaidi) na kuna swali (effect ilikuwa nini?), jawaabu ilivyo ni kuwa niliifukiza na dawa ya kufukuza wadudu. Hii inasorota kuwa kuna matumla ya kufanya msingi (mdudu alifinywa) kuwaas ongo la kufanya mtu akisimama na kufanya wajahi ya kufanya nini (kanyaga yule mdudu).\n\nJawaabu A ni jibu akili ya kuwa matumla ya kufanya msingi inasorota kufanya mtu akisimama na kuwa dawa ya kufukuza wadudu inaweza kufuka mtu kanyaga.",
+    "token_count": 192,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides a confusing and unrelated explanation."
+  },
+  {
+    "question_id": 100,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\nKuna matumla na msingi, \"Mvulana alifeli mtihani wake wa historia\" (Studenti imenelea testi ya historia), swali \"cause ilikuwa nini?\" (Tafasi inasijua nini?) inasorota kuna jawaab ya \"Alikuwa makini darasani\" (Itasikie shuleni ya kila mtu).\n\nMwalimu amani anapeleka studenti kuwa \"Alisahau kusoma\" (Nafikisha kutoka kutoka) ni jawaab koo nafika, lakini jawaab \"Alikuwa makini darasani\" ni yeye ambazo inasijua mtihani ya historia, kwa hakika.",
+    "token_count": 176,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the cause of the student's failure in the history exam and contains nonsensical phrases."
+  },
+  {
+    "question_id": 101,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Vikisano:**\n\nMwelekeo: Chagua chaguo la busara zaidi. (Nile sijambo na nini?)\n\nMsingi: Vyama vilivyolumbana viliekeana mkataba. (Nile sijambo na nini inayovilegahia katika tabia?)\n\nSwali: cause ilikuwa nini? (Wasiokoe kuna reason?)\n\nA: Hawakutaka kulumbana mahakamani. (Haukuwa na kama njema ya kuwa niliyendika, ilikuwa nini?)\n\nB: Walitaka kurudisha uhusiano wao. (Wasiokoe kuna wazama na uhusiano?)\n\n**Jibu A:** Hawakutaka kulumbana mahakamani. Nyota ilikuwa nini in",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the cause and instead provides an unrelated statement about not wanting to argue in court."
+  },
+  {
+    "question_id": 102,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Sunami ilitokezea.**\n\nKuna wakati ya chagua chaguo la busara zaidi, msingi ina kimondo kiliangukia baharini, swali ina askia kuwa nini ina tule. Sunami ni ulimwengu wa kufikiria kwa kila nchi, na kama baharini ikitokea, sunami ina tule sio ina kuwirisha.\n\nKila nchi anapeleka maendeleo ya bahari na matumla (mvua ya mawe) inayofariki kila sita kama nyota inayotolewa na sunami.",
+    "token_count": 156,
+    "label": "Hallucinated",
+    "reason": "The response contains nonsensical phrases and inaccuracies about tsunamis and their effects, failing to provide a coherent or factual explanation."
+  },
+  {
+    "question_id": 103,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A\n\nKuna jawaab koja kutoka chongo chaggu (A) inasumali tamthilia ya ufunguzi wa tamthilia lilianza. Chongo chaggu (B) inasumali waigizaji wa tamthilia, sijao kuwa nini ilikuwa nini, lakini chongo chaggu (A) amesumali kwa kila nini.\n\nKwa hakika, \"Chagua chaguo la busara zaidi\" inasumali kuwa msingi (kula jukwaa) anapendeka kama nini ananza kuwa nini. \"Pazia katika jukwaa lilikwenda juu\" inasumali ulimwengu wa kuwa msingi anapendeka kama nini ananza kuwa nini, na kuna j",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting nonsensical phrases and unrelated content."
+  },
+  {
+    "question_id": 104,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna kutanawa chagua chaguo la busara zaidi, msingi inaamini kuwa hii ni sawa. Mwanamme alinyoosha mkono wake kwangu ni sawa linafahamisha nini mkono hii inaangazia. Kuna wakati nje, inaendelea kuwa nini mkono wake inaangazia, hii ni sawa kuna kutanawa effect ilikuwa nini.\n\nKuna wakati, jawaab kunaelewa ni A, \"Nilitikisa mkono wake.\" Hii imeshaura kuwa nini mkono inaangazia inaendelea kuwa mwanamme alinyoosha. Nikitiliza kuwa mkono hii inaangazia, hii inaendelea kuna kila mtu, na kuna wak",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides a confusing narrative that lacks coherence and factual relevance."
+  },
+  {
+    "question_id": 105,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu (A): Nilitaka kuzungumza na msimamizi.\n\n(Translation: I wanted to talk to the manager.)\n\nThis answer best explains the reason for the call, as the person on the other end of the phone was seeking to communicate with the manager for some reason. Option B is less relevant as it suggests providing a kitambulisho (account number), which doesn't directly relate to the initial statement about wanting to talk to the manager.",
+    "token_count": 98,
+    "label": "Faithful",
+    "reason": "The model's response accurately reflects the intention of wanting to communicate with the manager, which aligns with the context of the call."
+  },
+  {
+    "question_id": 106,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Nilikwenda madukani.**\n\nTranslation: I went to the market again. (This is the most logical response based on the context, indicating a continuation of an action.)\n\nExplanation:\n- \"Chagua chaguo la busara zaidi\" means \"I went to the market again.\"\n- The person's machine (msingi) has broken (ilivunjika), and they are asking about the effect (swali) of this situation.\n- Option A (\"Nilikwenda madukani\") means \"I went to the market,\" which is a direct response to the context.\n- Option B (\"Nilimwita fundi\") does not fit as well, as it means \"I found money,\" which does not address the situation of the broken machine.",
+    "token_count": 173,
+    "label": "Hallucinated",
+    "reason": "The translation of \"Chagua chaguo la busara zaidi\" is incorrect, as it means \"Choose the most sensible option,\" not \"I went to the market again.\""
+  },
+  {
+    "question_id": 107,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alikwenda shambani.**\n\nKuna matumla na kuna jambo kama \"chagua chaguo la busara zaidi,\" inaama nini inaongea kati ya kufungua na mayai. Mwanamke amepungukia na mayai inaenda kuwa nini ilikuwa hii kinaonyo. Kuna jambo \"alikwenda shambani\" inaama kuwa mwanamke inaenda kuwa nini ilikuwa hii kinaonyo na inaendana kuwa nini ina ngua na mayai yake.\n\nSwali ya \"effect ilikuwa nini?\" inaama nini ina ngua na mayai ilikuwa kinaonyo, na kuna jambo \"alikwenda supamaketi\" inaama hii ni s",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an incoherent narrative that lacks factual relevance."
+  },
+  {
+    "question_id": 108,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A au B): **A**\n\n**Ubadilisha:**\n\n- **Chagua chaguo la busara zaidi:** \"Nimenee ni vitu vya mchanga, sijambo sita.\" (Nimepata mchanga za busara, nimepata akisogea).\n- **Msingi: Niliepuka:**  Kuna liko na msingi inaaliyena, inaonyeshe.\n- **Swali: effect ilikuwa nini?:**  Sio na kuna msingi, hakuna kila mchanga inaonyeshe.\n- **A: Fataki zilirushwa angani:**  Kuna mchanga, ilikuwa nini inaonyeshe? Sio na kuna fataki zilirushwa, lakini inaonyeshe kwa nini?\n-",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead presents disjointed and unclear statements that do not relate to the original inquiry."
+  },
+  {
+    "question_id": 109,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Maji yalichafuka.**\n\nKuna liko na \"Chagua chaguo la busara zaidi\" (Nimenee nini zaidi), msingi inaangazia ukame ulitokezea katika mkoa (nini inaweza kuimita hii). Swali \"effect ilikuwa nini?\" (tafasi ya kuna koa ni nini?) inaaskia pendo ya kama nyota inayotolewa. Tano, jawaab \"Maji yalichafuka\" (mali ya kama nyota inayotolewa) inaeleza pendo ya kuna koa, kunaokwa na mazao yalipotea (kuna kila mtu anapeleka maji ya kama nyota).\n\nHii imesha urongo kuwa kuna koa in",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect of drought, instead providing an unclear and unrelated statement about water contamination."
+  },
+  {
+    "question_id": 110,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, alitaka kupiga picha tarehe yake, jani la chagua chaguo la busara zaidi. Hii inaamaanisha kuwa mwanamme alijipulizia rangi, ilivyo kutoka kwa nini alitaka kuwaakilisha maendeleo ya kawaida.\n\nMwalimu (A) amesindika sawa, kuna matumla anasimama, alikuwa na makasirani ya kawaida nyanza au inasimama nafasi ya kuwasaa. Kupiga picha tarehe yake, alikuwa na makasirani ya kuwatumwa na kuwasimama, ilivyo kutoka kwa nini alitaka kuwaakilisha maendeleo ya kawaida na kuwa nini inaony",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an incoherent narrative that lacks factual relevance."
+  },
+  {
+    "question_id": 111,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu (A): **Niliwasha jiko.**\n\nKuna matumainia swali ya \"cause ilikuwa nini?\", jawaab koja ni ya kuwa niliwasha jiko. Hii inasorota kwa nini jiko lilipata moto, sijao kuteleka sufuria katika jiko, na kila mtu anapeleka kuwasomika na kuwasimama jiko.\n\nKwa hii, jawaab A (Niliwasha jiko) ni mawazini kama inasorota kuwa msingi anapata moto kwa sabab ya kuwasomika na kuwasimama jiko.",
+    "token_count": 158,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the cause, instead providing an unrelated statement about lighting a stove."
+  },
+  {
+    "question_id": 112,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu (A): **Chagua chaguo la busara zaidi** (Nimemtaa asili ya kufumana nafasi zote zaidi).\n\nMsingi: **Mtendaji alifilisika** (Mtu amesafiri na mtu anasafiri anasimama).\n\nSwali: **Cause ilikuwa nini?** (Tafadhali, tulete tena? Wajinga nini jini?)\n\nA: **Aliuza hisa za kampuni** (Walao, inaendelea kuwa nini inasimama, inaendelea kuwa nini inasogea na kampuni).\n\nB: **Alipoteza mali zake** (Inaendelea kuwa nini inasogea na mali ya mtu anasafiri).\n\n**Jibu (A au B",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not clearly address the cause of the person's financial situation and instead provides vague and unrelated statements."
+  },
+  {
+    "question_id": 113,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na chagu chaguo la busara zaidi, msingi inaamini muziki ulikuwa dhaifu sana kusikia, jinsia ya niongeza sauti. Hii inaonyeshea kila mtu kuwa nakuja kula sauti ya mchanga, amba akisimama na akipata.\n\nMwalimu wa sauti inaamini hii kama effect nini, kwa nini inaonyeshea sauti ya mchanga na inaendelea kila mtu kuwa nakuja kula sauti.",
+    "token_count": 145,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question about \"effect,\" instead presenting nonsensical statements that do not address the topic."
+  },
+  {
+    "question_id": 114,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Niliwasha taa.**\n\nKuna jawaab ya A inaelewa, hii imenelea kwenda la nafasi ya msingi. \"Chagua chaguo la busara zaidi\" (Nimenelea nini chani za busara) ina nguvu kuna tazao na kuna kuwa nini inaelewa. Umeme ndani ya nyumba yangu umezima\" (Nimemeza nje ya nyumba) ina nguvu kuna tazao na kuna kuwa msingi inaelewa nafasi ya kulaimita vitu vyao.\n\nSwali ya \"effect ilikuwa nini?\" (Nini ni wakati ya hii?) ina nguvu kuna tazao na kuna kuwa msingi inaelewa anza ya",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about \"effect\" and instead provides an unrelated and unclear statement."
+  },
+  {
+    "question_id": 115,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**\n\nKuna matumla na kuna swali, jawaabini ilivyo ni kushindana na keshia alimrudishia chenji yake. Msichana alimpa keshia pesa, na hii inaambaza nini ya keshia alimrudishia. Jawabini ya A inasorota hii makasani, kuna matumla na kuna swali.",
+    "token_count": 102,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about \"effect\" and instead provides an unrelated narrative."
+  },
+  {
+    "question_id": 116,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**\n\n**Wazaa:**\n\nKuna matumla na kuna joto, kuna msingi inaamini kuwa alitarajia hali ya hewa ya baridi katika safari yake imsiliwa na nguo za joto ndani ya sanduku lake. Hii inasorota kuna kitu chake chakuwa inaendelea kuna joto, kutoka kwa nini msingi inaamini kuwa alipanga nguo za joto.\n\nSwali ya \"effect ilikuwa nini?\" inasorota kuna jambo ya kuwasiriana na nini alipanga nguo za joto, na kuna matumla, joto inaendelea katika sanduku, hii inasorota jawapo A.",
+    "token_count": 187,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the \"effect\" and instead provides a convoluted narrative that lacks factual coherence."
+  },
+  {
+    "question_id": 117,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Alitaka aonekane mpya.**\n\nKuna jawaab ya **A** inaelewa, hii inaitanua nini:\n\n\n* **Chagua chaguo la busara zaidi:**  Kulindwa na nini? (Nini akasorota kama nini inaitanua?)\n* **Mwanamke alitia rangi nywele zake:**  Nywele zake inaonyeshwa nini? (Nini inaonyeshwa na mwanamke?)\n* **Swali: cause ilikuwa nini?**:  Nini imesindika kwamba mwanamke anaitanua rangi nywele zake? (Wajinga kuna nia ya kama nywele zake inaonyeshwa?)\n* **A: Alitaka aonekane mpya:**  (Kuna j",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the cause of the woman's actions and instead provides an unrelated statement."
+  },
+  {
+    "question_id": 118,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Mashule yalifungwa.**\n\nKuna matumla na kuna jawaab, \"Chagua chaguo la busara zaidi\" (Nimenee nini chaguo za busara). Msingi inaelewa kuwa \"Mji ulipata inchi kadhaa za theluji\" (Nia mtu amekaa inchi ya mchanga ya theluji), swali \"effect ilikuwa nini?\" (Tafasi ya kila hii ni wana?) inaaskia.\n\nJawaab \"Mashule yalifungwa\" (Mchanga ya theluji amekaa) imeshiuraa kuwa mchanga ya theluji iliyowekwa kwa nini chaguo za busara zizimkita. Kwa hii, jawaab A ni kimechoka kunaok",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides an unclear and unrelated statement."
+  },
+  {
+    "question_id": 119,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, jawaabu korogali ko nini ilikuwa nini. \"Kikuwa nyepesi kuvunjika\" (The thread got tangled) ni jawaabu mkubwa kama ilivunja sabali za mfuko vibofu. Kila nguvu ilikuwa nini, kama nini ilikuwa kidogo, habari gani ilikuwa nafasi inasimama.\n\nKwa hakika, jawaabu A ni korogali kama ilivunja sabali za mfuko, tanga ilikuwa nini ilikuwa kimefungwa kwenye mfuko vibofu.",
+    "token_count": 161,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question \"cause\" and instead provides an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 120,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Niligeuza macho yangu kwake.**\n\nTranslation: \"I managed to control my temper.\"\n\nThe dialogue seems to be about a situation where someone (the speaker) initially felt frustrated or angry (as indicated by \"chagua chaguo la busara zaidi\" and the mention of an animal leaving), but then they were able to calm down and control their temper, as shown by the choice of \"A.\" Option \"B\" (\"Nilimkumbatia,\" which means \"I fought\") doesn't seem to align with the context of controlling one's temper.",
+    "token_count": 126,
+    "label": "Hallucinated",
+    "reason": "The translation provided for \"Niligeuza macho yangu kwake\" is incorrect; it actually means \"I turned my eyes to him/her,\" not \"I managed to control my temper.\""
+  },
+  {
+    "question_id": 121,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Nilikaa katika mstari wa nyuma.**\n\nKuna jawaab ya nini chagua chaguo la busara zaidi:\n\n1. **Msingi: Nilichelewa kufika katika muhadhara.** (Ni wazazi wa kunaangazia nini inayoangazia kufika)\n2. **Swali: effect ilikuwa nini?** (Tafadhali, nini inaonyocha kama niaenda kufika?)\n3. **A: Nilikaa katika mstari wa nyuma.** (Sijambo, ilikuwa nini inaonyocha ni kuwa nilikwenda katika mstari wa nyuma - inasogelea kunaangazia nafasi ya kufika na kunaangazia usafiri.)\n4. **B: Nilisog",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question about the effect and instead provides an unrelated statement about sitting at the back of a line."
+  },
+  {
+    "question_id": 122,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**.\n\nKama chagua chaguo la busara zaidi, hii inaamaanisha kuwa mtoto anapeleka jinsi ya kuifunga. Option A, \"Alijifunza jinsi ya kuifunga,\" ni jawaab koo na maendeleo ya kuwatumwa na mtoto. Hii inasorota kuna matumla (metod) inasogea msingi ya kiatu ya mtoto ilifunguliwa.\n\nOption B, \"Alikwenda mbio katika uwanja wa michezo,\" si imesingia maendeleo ya kuwatumwa na mtoto katika uwanja wa michezo, nani yako na kama chagua chaguo la busara zaidi.",
+    "token_count": 184,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unclear and unrelated explanation."
+  },
+  {
+    "question_id": 123,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**.\n\nKuna matumla na kuna jawaabo, jawaabu ilivyo ni A, \"Alipokea malipo ya masurufu.\" (She stopped because she had a heavy period.)\n\nHii jawaabo inasorota kuwa mwanamke alitangaza kufilisika, na kuna matumla ya nini ilikuwa nini (why she was stopping). Malipo ya masurufu (heavy period) ni dia kama hii inasimama na kuna jawaabo.\n\nSwali \"cause ilikuwa nini?\" (why was it like that?) ni sawa na kuwa mwanamke angarika jinsi ya kufilisika, na jawaabu ilivyo yariykoa kuwa nini amesimama (what caused her to stop).",
+    "token_count": 197,
+    "label": "Hallucinated",
+    "reason": "The model's response does not accurately address the question about the cause, instead providing an unrelated explanation about a woman's situation."
+  },
+  {
+    "question_id": 124,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alifanya kazi muda wa ziada.**\n\nKuna msingi amesimama kuwa mwanamke alipungukiwa na pesa kwa ajili ya kukodi. Effect hii ni kwenda na kazi muda zaidi. Sio na, inaambaza kuwa njia ya kodi ya kula nafasi kuna faham kuhusiana na jinsi njia ya kula nafasi inaendelea kuwao. \n\nMwalimu wa chaguo cha kula nafasi inaendelea ku tutaonana na mwanamke hii, kuna jinsi njia inaambaza kuwa kazi muda inaumba.",
+    "token_count": 164,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides an unclear narrative that seems unrelated to the topic."
+  },
+  {
+    "question_id": 125,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A\n\nKuna jawaab kama A, \"Umeme ulizima katika mtaa,\" inaama nini inasimama na chagua chaguo la busara zaidi. Msingi inaeleza kuwa mti ulianguka katika waya wa umeme, na hii inaonyeshia kuwa umeme uliimie katika mtaa (kula sita ya kila sita).\n\nSwali ya \"effect ilikuwa nini?\" inaama nini inasimama katika kuwasaa chagua chaguo. Jawabka A inasorota kuwa umeme, katika sita ya kila sita, uliimie katika mtaa, jinsia ya kuwa nini inasimama ambapo inasimama na chagua chaguo zaidi.",
+    "token_count": 197,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the effect and instead provides an unclear and convoluted explanation."
+  },
+  {
+    "question_id": 126,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Nilitumia penseli.**\n\nKuna wakati nini, \"Chagua chaguo la busara zaidi\" (Nimepata mchanga kama nini) kuna matumla na msingi inayo ilimaliza wino (inayo kuwirisha). \"Msingi: Kalamu ilimaliza wino\" imenelea nini ya kuwa nimepata mchanga kama nini na nini ilikuwa effect.\n\nSwali ya \"effect ilikuwa nini?\" inaambaza kuwa nini ilikuwa result ya mchanga kama nini. Jawaabu, \"Nilitumia penseli\" inaeleza kuwa kuna matumla na msingi inayo kuwirisha, hii ni sito ya kuwa nini ilikuwa haraimie n",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect and instead provides an unclear and irrelevant statement."
+  },
+  {
+    "question_id": 127,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alitoka kwenye mashindano.**\n\nKuna jawaab ya **A** inaambaza nini cha kuwasaidia mwanariadha. Mwanariadha alikuwa amekaa nje ya kufahamisha kama nini kila mpinzani wake alikua anamkaribia. Kwenda kwenye mashindano ni sawa na kuwa njia ya kufahamisha ilikuwa imepata mawimbi ya kile nini alikuwa amekaa. \n\nMekaa jawaab ya **B** inaongezwa, lakini hii jawaab hainanunua sawa, sijao kuwa mwanariadha alikuwa amekaa nje ya kufahamisha.",
+    "token_count": 183,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect and instead provides an unclear and unrelated narrative about an athlete's situation."
+  },
+  {
+    "question_id": 128,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna liko na \"Chagua chaguo la busara zaidi\" (Nimenee imepata mchanga kama nini inay busara), msingi ilivyo kuwa \"Kompyuta haingewaka\" (Computeri imeshikwa), swali \"effect ilikuwa nini?\" (Tafasi gani ni kuwa hii?/Sia anani kani nini hii?) inasimama \"Niliiangusha\" (Inaitwaangusha/Inaitwaangushwa).\n\n\"Niliiongezea chaji\" (Nilikwenda kwa nini) si sio mchanga kama nini inay busara, lakini hii ni kama nini inasimama computeri, jani inaweza kupata jawaabo ya swali ya \"effect\". \"Nil",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides a confusing and unrelated narrative."
+  },
+  {
+    "question_id": 129,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A\n\nUmeamini kuwa awasi na msingi ilikuwa aligundua panya chini ya nyumba. Option A amesumsha nini ilikuwa nini kunaona, inasorota kwenye panya ya nyumba, jikuu msingi anakuja katika nyumba.\n\nOption B, sijaro inasorota panya chini ya nyumba, lakini maumau ya boksi la mchwa katika chumba chake ni mtu ananunua kwenye nyumba, hii si msingi anakuja.",
+    "token_count": 139,
+    "label": "Hallucinated",
+    "reason": "The model's response does not clearly address the question \"cause\" and instead provides an unclear narrative that seems unrelated to the concept of causation."
+  },
+  {
+    "question_id": 130,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**\n\nKuna jawaab koa kama kamwili, \"Kamera iliangaza katika upande wake\" ni jawaab iliyokoa swali ya \"effect ilikuwa nini?\"\n\nSwali amesindika kuwa habari ya kifahari ilikuwa toka, na jawaabu iliyowekwa ni kuwa kamera (upande wa) iliangaza, tena ni sawa na kuna tazao kwa mwandishi wa habari.",
+    "token_count": 117,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the \"effect\" and instead provides an unrelated statement about a camera."
+  },
+  {
+    "question_id": 131,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na kuna swali, jawaabu ilivyo ni A: \"Alipata kijishimo kwenye meno.\" (Wakaifia nyanja ya kuwasaia meno).\n\nKwa hakika, kuna matumla ya kuna swali \"effect ilikuwa nini?\" (Tafasi ya kutoa ni nini?), jawaabu A inaambaza kuwa mtu akipata nyanja ya kuwasaia meno, jani ilivyo ni kuwasaia ya kijishimo. Hii ni sawa kama msingi alivaa gango, inaungua nyanja ya kuwasaia meno, na hii ni jambo mkubwa kama nyanja ya kuwasaia inayotumwa na mtu.",
+    "token_count": 192,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides an unclear and unrelated statement."
+  },
+  {
+    "question_id": 132,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alikwenda nyumbani kwa siku moja.**\n\nUguzo wa kuwasiri vya chagua chaguo la busara zaidi inaonyeshea kwenye kuwatilisha msingi ya zamu za muajiriwa ilimaliza. \"Alikwenda nyumbani kwa siku moja\" (Aliitwanga nyumbani kwa maendeleo ya mtu moja) inaamaanisha kuwa mtu anapeleka kuwasaidia kazi ya muajiriwa ilimaliza, na kuwenda nyumbani kwa maendeleo ya mtu moja inasorota kuwasiri ko.\n\nSwali ya \"effect ilikuwa nini?\" (Tafasi ya kuwasaidia ni nini?) inaamulaia kuwa mtu anapeleka kuwas",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about \"effect\" and instead provides an unrelated and unclear statement."
+  },
+  {
+    "question_id": 133,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Mwanaume alilenga vibaya.**\n\nKuna matumla na matumaini ya kuwasiri ko nini ilikuwa msingi alikosa. \"Chagua chaguo la busara zaidi\" inaama nini ilikuwa imepata. Tafasi, \"Mshale ulikosa lengo\" inaama nini msingi alikuwa imepata na \"effect ilikuwa nini\" inaama wazani wa kutoa jawaab.\n\nJawaab A, \"Mwanaume alilenga vibaya,\" inaama nini ilikuwa mwanaume alikuwa amesindika na vibaya (kwa nini anasindika). Hii yaele na matumla ya kuwasiri ko nini ilikuwa msingi alikuwa imepata.",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect, instead providing an unrelated interpretation of a scenario."
+  },
+  {
+    "question_id": 134,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna jawaab koja kutoka kwa A, \"Niliandika insha kwa mkono,\" inaama kuwa nini, msingi imesingia na mkono wangu uliuma, nilikwenda na nishikana. Hii inaindika kwamba msingi imesingia si imeshikana na mkono wangu, na karenini niliandika (nikitiliza) insha kwa hii.\n\nSwali ya \"effect ilikuwa nini?\" inaama kuwa nini msingi imesingia na mkono wangu, na karenini jawaab A inaeleza hii.",
+    "token_count": 159,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the \"effect\" and instead provides an unclear narrative that does not relate to the inquiry."
+  },
+  {
+    "question_id": 135,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "The dialogue seems to be in Swahili, a language widely spoken in East Africa. Let's break it down:\n\n- **Chagua chaguo la busara zaidi.** - I keep moving forward, step by step.\n- **Msingi: Gari iliharibika.** - The worker: The engine stopped.\n- **Swali: cause ilikuwa nini?** - The questioner: Why did it stop?\n- **A: Niliwasha moto.** - Answer A: I ran out of fuel.\n- **B: Injini ilipata moto sana.** - Answer B: The engine got damaged seriously.\n- **Jibu (A au B):** - Now, between Answer A and B...\n\nIf we were to choose between the two answers, both provide different reasons for the engine stopping, but \"Niliwasha moto\" (I ran out of fuel) seems like the more immediate and common reason",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model inaccurately translates and interprets the Swahili dialogue, misrepresenting the meanings of the phrases and the context of the question."
+  },
+  {
+    "question_id": 136,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, alipokea mwaliko (alipata mwaliko) katika sherehe ya siku ya kuzaliwa ya mwanafunzi mwenzake. Hii inaitwa \"chagua chaguo la busara zaidi,\" yang ukaongezwa na kuna matumla na msingi inasorota kama nini mwaliko ilikuwa inasimama.\n\nMwaliko inaonyeshia msingi ya kuwa nini ilikuwa inasimama katika siku hii, na kuna matumla na msingi inaeleza kwamba alipokea mwaliko, hii inaelewa katika jawapo ya \"A.\"",
+    "token_count": 176,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unclear narrative about an invitation to a birthday party, which is irrelevant to the concept of cause."
+  },
+  {
+    "question_id": 137,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna jawaab koja kutoka katika kuwasila cha kufahamisha nini ilikuwa mwanamke hakuu shusha pumzi kwa mfadhaiko. Mme nafasi kuwa mume wake hakuelewa wasiwasi wake. Hii inasorota nini ilikuwa mume wake alimuaga kwa mabusu, sijao kuwa hakuwa na jinsia ya kuwasila kwa nini.\n\nKwa hakika, jawaab B (Mume wake alimuaga kwa mabusu) si mifano, lakin jawaab A amesirika hii ya kuwasila kwa nini mwanamke hakuu shusha pumzi.",
+    "token_count": 171,
+    "label": "Hallucinated",
+    "reason": "The model's response does not directly address the question \"cause\" and instead provides an unclear narrative that lacks factual coherence."
+  },
+  {
+    "question_id": 138,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A.\n\nKuna matumla na mwanamke alivaa kizibo cha masikio, causa ya kila ni anasumbuliwa na kelele. Kelele cha kufahamisha na kufanya nini inaonyeshwa na vitu vyenye vile, jika ilikuwa anasumbuliwa, hii inaenda kutoka sana.\n\nMsingi hii inaama \"chagua chaguo la busara zaidi\" (tuma ambile ya kufika kama nini inaenda kutoka), na jawaabini inaeleza sababina za akisumbulia na kelele. Kelele hii inaenda kuwa mwanamke anasumbuliwa na masikio yake, sijao kuwa nafasi inaenda kufahamisha na kufanya nini",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question \"cause\" and instead provides an unclear narrative about a woman and noise, lacking factual coherence."
+  },
+  {
+    "question_id": 139,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna matumla na msingi, jawabeku inaweza kuwa A. Dawa ya meno ilichuruzika kutoka kwenye tyubu ya dawa ya meno, jini inaonyesheza nini. Msichana alibinya tyubu hii, na kwa hakika, dawa ilikuwa inaonyeshea kuwasaidia kuliaji.\n\nSwali ya \"effect ilikuwa nini?\" inaaskia kuwa nini ilikuwa inaonyesheza kama inaumba. Jawabeku ni kuwa dawa ya meno ilichuruzika kutoka tyubu, jini inaonyesheza kuwasaidia msichana kuliaji.",
+    "token_count": 173,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect, instead providing an unclear and nonsensical explanation."
+  },
+  {
+    "question_id": 140,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A**\n\n**Wazazo:**\n\n\n* **Chagua chaguo la busara zaidi:**  Kuna tanzania, kuna upeshaji ya kila mtu kuna jua. \n* **Msingi: Mwanamke alivaa miwani ya kiza:**  Ninapendekeza,  mwanamke anivuna kiza cha jua (kama nini ya jua).\n* **Swali: cause ilikuwa nini?:**  Nyota imesimama na kuna tanya nini ayele kea kiva kiza.\n* **A: Muangaza wa jua ulilikuwa mkali:**  Jua ilikuwa umezafichia kwa muda mrefu,  sana nyanza ilikuwa umezafichia kwa jua (kama nini ya jua).",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about the cause and instead provides a confusing and unrelated narrative."
+  },
+  {
+    "question_id": 141,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Alitambaa ndani kupitia dirisha lililo wazi.**\n\nKuna jawaab kama nini kinaelewa kutoka swali ya \"effect ilikuwa nini?\" (Tafasi ya kaitanzo ya msingi). Vyo walao, jawaab A inasorota kuwa mvulana alikuwa amefungiwa nje ya nyumba yake, na akitambaa ndani kupitia dirisha lililo wazi. Hii inasorota kuwa mvulana alikuwa amekaa posa ya kuhubiri nafasi ya kaitanzo ya msingi.\n\nJawaab B (\"Alipanda juu ya paa\") si imesingelea swali ya \"effect\" (tafasi), lakini inasorota kama jawaab ya kaitanzo ya",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not accurately address the question about the \"effect\" and instead provides an unrelated narrative."
+  },
+  {
+    "question_id": 142,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu (A): **Kapeti lilionekana chafu.**\n\nTranslation: \"The bird flew away because its cage was open.\"\n\nThis answer makes sense in the context of the dialogue. The first statement (\"Chagua chaguo la busara zaidi\") indicates that something (a bird, implied by \"chaguo\") flew away. The second statement from the character (Msingi) asks why this happened, and the response (A) provides a reason: the cage (chafu) was open, allowing the bird to escape.\n\nOption B (\"Kuta zilionekana tupu\") would not be a logical answer to the question \"cause ilikuwa nini?\" (Why did it happen?).",
+    "token_count": 154,
+    "label": "Hallucinated",
+    "reason": "The model's response incorrectly translates \"chafu\" as \"open,\" while it actually means \"dirty,\" making the explanation factually inaccurate."
+  },
+  {
+    "question_id": 143,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A**.\n\nKuna matumla na msingi, \"Nilihesabu pesa zangu\" (Nilekatika kula kutana na pesa ya minele). Hii inasorota kuwa chagua chaguo la busara zaidi, kila nini inasimama na kuna matumla.\n\nSwali \"effect ilikuwa nini?\" (Vile ni njia hii?) inaeleza kulia nafasi ya msingi kuwaas maana hii inaonyeshia kama njia inasimama kama vile nini inasorota. Jawabka A inasorota kuwa msingi inahetutoa kula kutana na pesa, jikuu yakuwa nini inasimama.",
+    "token_count": 179,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about \"effect\" and instead provides a confusing and unrelated explanation."
+  },
+  {
+    "question_id": 144,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: A.\n\nKuna jawaabo mkubwa kama nini chagua chaguo la busara zaidi. Option A, \"Niliangalia sanduku la barua wakati wa kutoka katika nyumba,\" (Nileangalia sanduku ya barua wakati paka ya kutoka katika nyumba) amba ya kuwa nini imesindika njia ya kinaona kama nini inasindika barua za busara. Barua ya kutoka katika nyumba inasindika njia ya kinaona kama nini inasimama na kinaona kama nini inasindika busara.\n\nOption B, \"Nilijigonga mlango wakati wa kutoka katika nyumba,\" (Nilejigonga mlango paka ya kutoka katika nyumba) haifai kula chaguza la",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The model's response does not clearly address the question about the effect and instead provides unrelated and confusing statements."
+  },
+  {
+    "question_id": 145,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): **Nilizipeleka jaani.**\n\nUmeamini kuwa kuna jawaab ya nini (effect) chaingia msingi. \"Nilizipeleka jaani\" inasimama ulimwengu wa kuna jawaab ya \"begi la takataka limejaa\" (begi alikuwa amesafiri cha takataka iliyopita). Hii indicatwa kuwa kuna amani ya kuwatuma na kuna jawaab ya swali ya \"effect ilikuwa nini?\" (Tafasi ya kuna jawaab ya \"nini ni effect?\").",
+    "token_count": 146,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides an unclear and unrelated statement."
+  },
+  {
+    "question_id": 146,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: A\n\nKuna matumla na matumaini katika hadithi hii, mgongo wa kijana (ilivyo chagua chaguo la busara) ni mfuko wa begani ulikuwa wazi. Hii inasorota nini kila mtu anapeleka mfuko wao katika kuwasaa kurafa.\n\nMfuko wa begani, ambi, inasorota nini kila mtu anapeleka akisogea na akisimama. Hii inaelewa na mfuko wao ilikuwa mzito (opaka), jini inaumba na inaendelea kama njema, laakiwa nini kila mtu anapeleka.\n\nSio na, hadithi hii inasorota kama nini mfuko wao inaum",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not provide a coherent or relevant answer to the question \"cause\" and instead presents nonsensical statements."
+  },
+  {
+    "question_id": 147,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu: **A: Alipanda ngazi.**\n\nKuna matumiza, \"Chagua chaguo la busara zaidi\" (Nile siku ni siku inasoroka) kuna matumiza kuwa msingi imesahau mwanamme alipoteza balanzi juu ya ngazi. \"Mwanamme alipoteza balanzi\" yaani mwanamke anapendeka kama nini ngazi inasoroka.\n\nSwali ya \"effect ilikuwa nini?\" inaaskia kuwa njia ya kina chaguo cha busara zaidi inasimama na mwanamme alipoteza balanzi. Kuna matumiza, effect tuu inasimama ni alipanda ngazi. \n\nMalaika ya kina chaguo cha busara zaidi inasimama na mwanamme alipote",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not clearly address the question about \"effect\" and instead provides a confusing and unrelated narrative."
+  },
+  {
+    "question_id": 148,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "effect",
+    "response": "Jibu (A): Petali zilitoa ua chini ya pua yangu.\n\nKuna jawa hii, msingi imesahau kuwa mtu anapeleka pua (kulaanama \"nilieka\") na hii inaonyesha uzito mkubwa. Petali zilitoa, jika chini ya pua, inaonyesha kuwa mtu anapeleka na hii inaendelea kula sawa.\n\nSwali: Effect ilikuwa nini?\n\nJawa: Effect tuu inaonyesha uzito mkubwa ya mtu. Sita kila mtu anapeleka pua, sita hii inaendelea kula sawa, inaumba kula nini, na inaonyesha kuwasikia harufi ya au (B).\n\nB (Jawa",
+    "token_count": 200,
+    "label": "Hallucinated",
+    "reason": "The response does not accurately address the question about the effect and instead provides a confusing and unclear explanation."
+  },
+  {
+    "question_id": 149,
+    "language": "sw",
+    "task": "xcopa",
+    "question": "cause",
+    "response": "Jibu: **A: Volkano ililiripuka.**\n\nKuna matumla na swali ya \"cause ilikuwa nini?\", jibu ya A inaelewa kuna tazao kwenye kuwasaia ilitiririka kutoka kwenye volcano. Volkano ililiripuka (eruption) ni nyota inaelewa katika kuwasaia msingi ya ilitiririka.\n\nOption B ni sawa, lakini jibu ya A ni jota mzuri kama angaria kuwasaia hii kila nini.",
+    "token_count": 134,
+    "label": "Hallucinated",
+    "reason": "The response does not directly address the question about the cause of the volcanic eruption and instead provides an unclear explanation."
+  }
+]
