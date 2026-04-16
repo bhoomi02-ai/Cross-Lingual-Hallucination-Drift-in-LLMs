@@ -1,0 +1,5 @@
+test,comparison,en_HR,other_HR,statistic,p_value,significant
+Mann-Whitney U,xcopa: en vs sw,8.0,98.67,1050.0,0.0,YES
+Mann-Whitney U,truthfulqa: en vs es,27.33,24.67,11550.0,0.599761,NO
+Chi-squared (task × outcome),es/TruthfulQA vs sw/XCOPA (Φ=-93.33pp),,,170.62,0.0,YES
+Fisher exact (robustness),es/TruthfulQA vs sw/XCOPA,,,226.0,0.0,YES

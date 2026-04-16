@@ -62,44 +62,45 @@ def plot_hr_by_language_task(hr_df):
 
 
 def plot_drift(hr_df):
-    """Bar chart: ΔHR per non-English language, grouped by task."""
+    """Bar chart: ΔHR for each non-English language–task pair."""
     en_rates = hr_df[hr_df["language"] == "en"].set_index("task")["HR"]
     non_en = hr_df[hr_df["language"] != "en"].copy()
     non_en["delta_HR"] = non_en.apply(
         lambda r: r["HR"] - en_rates.get(r["task"], 0), axis=1
     )
-    non_en["lang_label"] = non_en["language"].map(LANG_LABELS)
-    non_en["task_label"] = non_en["task"].map(TASK_LABELS)
+    non_en["bar_label"] = non_en.apply(
+        lambda r: f"{LANG_LABELS[r['language']]}\n{TASK_LABELS[r['task']]}", axis=1
+    )
 
-    fig, ax = plt.subplots(figsize=(8, 5))
-    x = range(len(non_en["lang_label"].unique()))
-    tasks = list(TASK_LABELS.keys())
-    width = 0.35
+    # Each language–task pair gets its own bar
+    non_en = non_en.sort_values(["task", "language"])
+    bar_colors = [COLORS[lang] for lang in non_en["language"]]
 
-    for i, task in enumerate(tasks):
-        subset = non_en[non_en["task"] == task].sort_values("language")
-        positions = [j + i * width for j in range(len(subset))]
-        bars = ax.bar(
-            positions, subset["delta_HR"],
-            width=width,
-            label=TASK_LABELS[task],
-            alpha=0.85,
+    fig, ax = plt.subplots(figsize=(7, 5))
+    bars = ax.bar(
+        range(len(non_en)),
+        non_en["delta_HR"],
+        color=bar_colors,
+        edgecolor="white",
+        linewidth=0.8,
+        alpha=0.85,
+    )
+
+    for bar, val in zip(bars, non_en["delta_HR"]):
+        y_pos = bar.get_height() + (0.5 if val >= 0 else -2.5)
+        ax.text(
+            bar.get_x() + bar.get_width() / 2,
+            y_pos,
+            f"{val:+.1f} pp",
+            ha="center", va="bottom", fontsize=10, fontweight="bold",
         )
-        for bar, val in zip(bars, subset["delta_HR"]):
-            ax.text(
-                bar.get_x() + bar.get_width() / 2,
-                bar.get_height() + 0.1,
-                f"{val:+.1f}",
-                ha="center", va="bottom", fontsize=9,
-            )
 
-    langs = sorted(non_en["language"].unique())
-    ax.set_xticks([j + width / 2 for j in range(len(langs))])
-    ax.set_xticklabels([LANG_LABELS[l] for l in langs])
+    ax.set_xticks(range(len(non_en)))
+    ax.set_xticklabels(non_en["bar_label"], fontsize=10)
     ax.axhline(0, color="black", linewidth=0.8, linestyle="--")
     ax.set_ylabel("ΔHR vs English (pp)")
-    ax.set_title("Cross-Lingual Drift by Task Type", fontsize=13, fontweight="bold")
-    ax.legend()
+    ax.set_title("Cross-Lingual Hallucination Drift by Task Type",
+                 fontsize=13, fontweight="bold")
     ax.spines[["top", "right"]].set_visible(False)
 
     plt.tight_layout()
