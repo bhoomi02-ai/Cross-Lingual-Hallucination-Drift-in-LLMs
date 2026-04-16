@@ -1,0 +1,5 @@
+task,language,total,hallucinated,HR,avg_tokens,delta_HR
+truthfulqa,en,150,41,27.33,81.7,0.0
+truthfulqa,es,150,37,24.67,108.0,-2.66
+xcopa,en,150,12,8.0,89.2,0.0
+xcopa,sw,150,148,98.67,185.0,90.67
