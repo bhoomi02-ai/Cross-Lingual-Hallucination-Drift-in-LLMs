@@ -4,6 +4,14 @@
 Downloads TruthfulQA and XCOPA from HuggingFace and saves
 raw data to data/raw/ as JSON files.
 
+Language coverage:
+  TruthfulQA : en (original), es (alexandrainst/m_truthfulqa)
+               sw is NOT available in m_truthfulqa (confirmed configs: ar,bn,ca,da,de,es,
+               eu,fr,gu,hi,hr,hu,hy,id,it,kn,ml,mr,ne,nl,pt,ro,ru,sk,sr,sv,ta,te,uk,vi,zh).
+               Φₗ therefore uses a cross-language aggregate rather than per-language scores.
+  XCOPA      : en (SuperGLUE COPA), sw (xcopa)
+               Spanish is not available in XCOPA.
+
 Run: python src/01_load_datasets.py
 """
 
@@ -33,6 +41,11 @@ def load_truthfulqa():
     dataset_es = load_dataset("alexandrainst/m_truthfulqa", "es")
     examples_es = [dict(ex) for ex in dataset_es["val"]]
     save_json(examples_es, f"{RAW_DIR}/truthfulqa_es.json")
+
+    # Swahili TruthfulQA: not available in alexandrainst/m_truthfulqa.
+    # If a sw translation is released in the future, load it here and add
+    # "sw" to the loop in 02_sample_and_format.py (template already defined).
+    print("  [skip] truthfulqa_sw — not available in alexandrainst/m_truthfulqa")
 
 
 def load_xcopa():

@@ -1,0 +1,313 @@
+\documentclass[11pt]{article}
+\usepackage{acl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{microtype}
+
+\title{Cross-Lingual Hallucination Drift in LLMs:\\Does It Depend on Task Type?\\
+\normalsize Midway Report}
+
+\author{
+  Bhoomika Monthy Rajashekar \quad Devinn Chi \quad Chun Hsu \quad Anagha P Krishna \\
+  Boston University \\
+  \texttt{\{bhoomi02, dhchi, rexhsu, anaghapk\}@bu.edu} \\
+  Advisor: Aaron Mueller
+}
+
+\begin{document}
+\maketitle
+
+%% ABSTRACT
+\begin{abstract}
+Large Language Models (LLMs) are known to hallucinate in non-English languages,
+but whether this cross-lingual drift is task-dependent remains an open question.
+We test this by measuring hallucination rates of Aya Expanse 8B across English,
+Spanish, and Swahili on two structurally different tasks: factual QA (TruthfulQA)
+and commonsense reasoning (XCOPA), using GPT-4o-mini as an LLM-as-a-Judge evaluator.
+Our completed experiments yield a striking result: hallucination drift is strongly
+task-dependent. On TruthfulQA, Spanish drift is negligible ($\Delta$HR $= {-2.66}$~pp,
+$p = 0.60$). On XCOPA, Swahili drift is catastrophic ($\Delta$HR $= {+90.67}$~pp,
+$p < 0.001$). The cross-task drift interaction score $\Phi = {-93.33}$~pp is
+statistically significant ($\chi^2 = 170.62$, $p < 0.001$). A secondary finding
+is that when hallucinating on XCOPA in Swahili, the model generates nearly twice
+as many tokens as on faithful responses (186 vs.\ 100), suggesting incoherent
+rambling rather than confident fabrication. These results extend and refine prior
+work by showing that task type is a major confound in cross-lingual hallucination
+estimation.
+\end{abstract}
+
+%% 1. INTRODUCTION
+\section{Introduction}
+
+Hallucination in LLMs---generating content that is factually incorrect or
+unfaithful---is a well-documented failure mode \cite{alansari2025survey}.
+A natural concern as LLMs are deployed globally is whether hallucination
+rates are higher in non-English languages, particularly low-resource ones
+where training data is sparse \cite{blasi-etal-2022-systematic}.
+This phenomenon is termed \textit{Cross-Lingual Hallucination Drift}: the
+change in hallucination rate when a model operates in a non-English language.
+
+A pivotal study by \citet{ulislam-etal-2025-hallucinate} measured token-level
+hallucination rates across 30 languages and 6 open-source LLM families, finding
+that \textit{length-normalized hallucination rates are uncorrelated with language
+resource level}---a surprising result that overturns the common assumption that
+low-resource languages hallucinate more. However, that study evaluated a single
+task type: open-domain, knowledge-intensive long-form QA. Whether this finding
+holds across structurally different task types remains unexplored.
+
+We investigate this gap. Factual recall (TruthfulQA) requires the model to retrieve
+internally stored parametric knowledge, while commonsense reasoning (XCOPA) requires
+applying world knowledge to select a plausible cause or effect \cite{qi-etal-2023-cross}.
+These two task types may expose fundamentally different failure modes across languages.
+We formally define the \textbf{Drift Interaction Score}:
+\[
+\Phi_l = \Delta\mathrm{HR}_{l,\,\text{TruthfulQA}} - \Delta\mathrm{HR}_{l,\,\text{XCOPA}}
+\]
+where $\Delta\mathrm{HR}_{l,t} = \mathrm{HR}_{l,t} - \mathrm{HR}_{\text{en},t}$.
+A large $|\Phi_l|$ indicates drift is task-dependent for language $l$. Our
+completed experiments confirm this hypothesis decisively.
+
+%% 2. METHODS
+\section{Methods}
+
+\subsection{Datasets}
+
+We use two benchmarks representing structurally different task types.
+
+\paragraph{TruthfulQA} \cite{lin-etal-2022-truthfulqa} consists of 817 questions
+across 38 domains designed to elicit confident false beliefs. We use the English
+original and the Spanish translation from the \texttt{alexandrainst/m\_truthfulqa}
+HuggingFace dataset. Spanish is a mid-resource language with substantial LLM
+training data coverage.
+
+\paragraph{XCOPA} is a cross-lingual commonsense causal reasoning benchmark
+spanning 11 typologically diverse languages. Each example presents a premise and
+two candidate causes or effects; the model must select the more plausible one. We
+use the English split from SuperGLUE COPA and the Swahili (\texttt{sw}) split.
+Swahili is a low-resource language. Spanish is not available in XCOPA, so our
+cross-task comparison uses Spanish for TruthfulQA and Swahili for XCOPA.
+
+We sample 150 examples per language per task (random seed 42), yielding 600 total
+evaluation instances across four language--task cells.
+
+\subsection{Models}
+
+\paragraph{Target model.} We evaluate \textbf{Aya Expanse 8B}, a multilingual
+open-source instruction-tuned model by Cohere Labs, queried with zero-shot prompts
+written in the target language for each cell.
+Prompts are templated separately for TruthfulQA (free-form answer) and XCOPA
+(choose A or B).
+
+\paragraph{Judge model.} We use \textbf{GPT-4o-mini} as our LLM-as-a-Judge
+evaluator, following the methodology of \citet{kang-etal-2024-comparing}. The judge
+receives each (question, model response) pair and labels it \textit{Hallucinated} or
+\textit{Faithful} with a brief justification. We chose GPT-4o-mini for its strong
+multilingual comprehension across all three languages.
+
+\subsection{Evaluation Pipeline}
+
+The pipeline proceeds in five stages: (1) dataset download and sampling; (2) zero-shot
+inference with Aya Expanse 8B on all four language--task cells; (3) GPT-4o-mini judge
+labeling, with automatic retry for any \texttt{ERROR} labels; (4) hallucination rate
+computation; and (5) statistical significance testing.
+
+We compute the hallucination rate as:
+\[
+\mathrm{HR}_{l,t} = \frac{\#\,\text{Hallucinated}}{N_{l,t}} \times 100\,(\%)
+\]
+where $N_{l,t} = 150$ for all cells. All code is publicly available in our
+repository.
+
+%% 3. EXPERIMENTS
+\section{Experiments}
+
+\subsection{Setup}
+
+All experiments run on Python 3.10 with \texttt{pandas}, \texttt{scipy},
+\texttt{matplotlib}, and the HuggingFace \texttt{datasets} library. Aya Expanse 8B
+inference requires a GPU; judge calls use the OpenAI API. Total labeled examples: 600
+(150 per cell). Judge labels were inspected and retried for any malformed outputs.
+
+\subsection{Statistical Tests}
+
+We apply three tests to assess significance of hallucination differences:
+
+\begin{itemize}
+  \item \textbf{Mann-Whitney U} (per task): tests whether hallucination rates differ
+        between English and the non-English language within a task.
+  \item \textbf{Chi-squared} ($2{\times}2$ contingency): tests whether hallucination
+        outcome is independent of task type for non-English responses---directly testing
+        the $\Phi$ hypothesis.
+  \item \textbf{Fisher's exact}: robustness check on the same $2{\times}2$ table,
+        preferred for smaller cell counts.
+\end{itemize}
+
+%% 4. RESULTS
+\section{Results}
+
+\subsection{Hallucination Rates and Drift}
+
+Table~\ref{tab:hr} shows hallucination rates across all four language--task cells.
+TruthfulQA rates are comparable between English (27.33\%) and Spanish (24.67\%),
+yielding a negligible and non-significant drift of $-2.66$~pp. In contrast, XCOPA
+Swahili hallucination is near-total (98.67\%), representing a drift of $+90.67$~pp
+above the English XCOPA baseline (8.00\%).
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrr}
+\toprule
+\textbf{Task} & \textbf{Language} & \textbf{HR (\%)} & \textbf{$\Delta$HR (pp)} \\
+\midrule
+TruthfulQA & English  & 27.33 & ---      \\
+TruthfulQA & Spanish  & 24.67 & $-2.66$  \\
+XCOPA      & English  &  8.00 & ---      \\
+XCOPA      & Swahili  & 98.67 & $+90.67$ \\
+\bottomrule
+\end{tabular}
+\caption{Hallucination rates (HR) and drift ($\Delta$HR vs.\ English baseline)
+per language--task cell. $N=150$ per cell.}
+\label{tab:hr}
+\end{table}
+
+\subsection{Drift Interaction and Statistical Significance}
+
+Table~\ref{tab:stats} presents all statistical test results. The XCOPA en$\to$sw
+drift is highly significant ($p < 0.001$), while TruthfulQA en$\to$es drift is not
+($p = 0.60$). The cross-task $\chi^2$ test confirms that hallucination outcome is not
+independent of task type ($\chi^2 = 170.62$, $p < 0.001$), validated by Fisher's
+exact test (OR $= 226.0$, $p < 0.001$). The aggregate drift interaction score is
+$\Phi = {-93.33}$~pp, far exceeding our pre-specified minimum effect threshold of
+$|\Phi| \geq 2$~pp.
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{llrrl}
+\toprule
+\textbf{Test} & \textbf{Comparison} & \textbf{Stat.} & \textbf{$p$} & \textbf{Sig.} \\
+\midrule
+Mann-Whitney U & TruthfulQA: en vs es & 11550.0  & 0.600    & No  \\
+Mann-Whitney U & XCOPA: en vs sw      & 1050.0   & $<$0.001 & Yes \\
+Chi-squared    & es/TQA vs sw/XCOPA   & 170.62   & $<$0.001 & Yes \\
+Fisher's exact & es/TQA vs sw/XCOPA   & OR=226.0 & $<$0.001 & Yes \\
+\bottomrule
+\end{tabular}
+\caption{Statistical test results. TQA = TruthfulQA. Chi-squared and Fisher's
+exact test the $\Phi$ hypothesis directly.}
+\label{tab:stats}
+\end{table*}
+
+\subsection{Token Verbosity}
+
+A secondary finding: when hallucinating on XCOPA in Swahili, Aya generates an average
+of 186 tokens per response, compared to 100 tokens for faithful responses in the same
+cell---an 86\% increase. This pattern does not hold for TruthfulQA in either language,
+suggesting that XCOPA Swahili hallucinations reflect \textit{incoherent rambling}
+rather than the confident but wrong short answers typical of factual QA hallucination.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\columnwidth]{hr_by_language_task.png}
+  \caption{Hallucination rates by language and task. XCOPA Swahili is near-total
+  (98.67\%), while TruthfulQA drift between English and Spanish is negligible.}
+  \label{fig:hr}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\columnwidth]{drift_by_task.png}
+  \caption{Cross-lingual drift ($\Delta$HR vs.\ English) by language--task cell.
+  Spanish TruthfulQA shows near-zero drift ($-2.7$~pp), while Swahili XCOPA
+  shows catastrophic drift ($+90.7$~pp).}
+  \label{fig:drift}
+\end{figure}
+
+\subsection{Discussion}
+
+Our results provide strong evidence that cross-lingual hallucination drift is
+task-dependent. The contrast between tasks is stark: a multilingual model that
+handles Spanish factual QA nearly as well as English collapses almost entirely on
+Swahili commonsense reasoning. This suggests that commonsense reasoning in XCOPA
+may be more sensitive to linguistic and cultural grounding in the target language---the
+model cannot fall back on parametric factual recall and instead produces incoherent
+output. This finding directly extends \citet{ulislam-etal-2025-hallucinate}: their
+null correlation between HR and language resource level may hold for knowledge-intensive
+QA but not for commonsense reasoning.
+
+One limitation is that Spanish and Swahili appear in different tasks (TruthfulQA
+and XCOPA, respectively), since Spanish is not available in XCOPA. Our $\Phi$ score
+therefore conflates task-type and language-identity differences. We address this by
+framing $\Phi$ as a cross-task aggregate comparison rather than a per-language score,
+and note it as a priority for the final report.
+
+%% 5. PROJECT PLAN
+\section{Project Plan}
+
+All core experiments are complete. The remaining work for the final report is:
+
+\begin{enumerate}
+  \item \textbf{Qualitative error analysis.} Categorize GPT-4o-mini judge reasons
+        (e.g., incoherent, wrong answer, fabricated, code-switching) and report
+        hallucination type distributions per cell.
+  \item \textbf{XCOPA question-type breakdown.} Separate XCOPA hallucination rates
+        by question type (\textit{cause} vs.\ \textit{effect}) to assess whether
+        causal direction affects the failure mode.
+  \item \textbf{Dual-judge agreement.} Run a second judge on a 50-sample subset
+        per cell to compute inter-annotator agreement (Cohen's $\kappa$) and validate
+        GPT-4o-mini reliability on Swahili.
+  \item \textbf{Final report write-up.} Expand the methods and discussion sections,
+        incorporate error analysis findings, and polish figures for submission.
+\end{enumerate}
+
+%% TEAM CONTRIBUTIONS
+\clearpage
+\section*{Team Contributions}
+
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{p{2.2cm} p{1.8cm} p{4.2cm}}
+\toprule
+\textbf{Member} & \textbf{Role} & \textbf{Contributions} \\
+\midrule
+Chun Hsu
+  & Data \& Infra
+  & Dataset download and preprocessing;
+    HuggingFace pipeline setup;
+    prompt formatting and JSON storage \\
+\addlinespace
+Devinn Chi
+  & Experiments
+  & Zero-shot inference with Aya Expanse 8B
+    across all language--task cells;
+    GPT-4o-mini judge runs;
+    error label retry pipeline \\
+\addlinespace
+Bhoomika Monthy Rajashekar
+  & Evaluation \& Metrics
+  & LLM-as-a-Judge prompt design;
+    hallucination rate computation;
+    $\Delta$HR and $\Phi$ metric implementation;
+    Streamlit dashboard \\
+\addlinespace
+Anagha P Krishna
+  & Analysis \& Writing
+  & Statistical tests (Mann-Whitney,
+    chi-squared, Fisher's exact);
+    visualizations; report write-up \\
+\bottomrule
+\end{tabular}
+\caption{Team task distribution for the midway report.}
+\label{tab:team}
+\end{table}
+
+%% REFERENCES
+\bibliographystyle{acl_natbib}
+\bibliography{references}
+
+\end{document}
