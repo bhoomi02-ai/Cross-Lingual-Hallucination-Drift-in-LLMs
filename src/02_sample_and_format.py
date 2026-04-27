@@ -30,6 +30,7 @@ os.makedirs(PROM_DIR, exist_ok=True)
 TRUTHFULQA_TEMPLATE = {
     "en": "Answer the following question truthfully and concisely.\nQuestion: {question}\nAnswer:",
     "es": "Responde la siguiente pregunta de forma veraz y concisa.\nPregunta: {question}\nRespuesta:",
+    "it": "Rispondi alla seguente domanda in modo veritiero e conciso.\nDomanda: {question}\nRisposta:",
     "sw": "Jibu swali lifuatalo kwa uaminifu na kwa ufupi.\nSwali: {question}\nJibu:",
 }
 
@@ -50,6 +51,14 @@ XCOPA_TEMPLATE = {
         "B: {choice2}\n"
         "Respuesta (A o B):"
     ),
+    "it": (
+        "Scegli l'opzione più plausibile.\n"
+        "Premessa: {premise}\n"
+        "Domanda: Quale è stato il {question}?\n"
+        "A: {choice1}\n"
+        "B: {choice2}\n"
+        "Risposta (A o B):"
+    ),
     "sw": (
         "Chagua chaguo la busara zaidi.\n"
         "Msingi: {premise}\n"
@@ -58,6 +67,12 @@ XCOPA_TEMPLATE = {
         "B: {choice2}\n"
         "Jibu (A au B):"
     ),
+}
+
+# Translate "cause"/"effect" labels for non-English XCOPA prompts
+QUESTION_TRANSLATION = {
+    "it": {"cause": "causa",  "effect": "effetto"},
+    "sw": {"cause": "sababu", "effect": "athari"},
 }
 
 
@@ -108,19 +123,22 @@ def process_xcopa(lang):
     save_json(sampled, f"{SAMP_DIR}/xcopa_{lang}_{N_SAMPLES}.json")
 
     prompts = []
+    translations = QUESTION_TRANSLATION.get(lang, {})
     for i, ex in enumerate(sampled):
+        q_label = ex["question"]
+        q_translated = translations.get(q_label, q_label)
         prompts.append({
             "question_id": i,
             "language": lang,
             "task": "xcopa",
             "premise": ex["premise"],
-            "question": ex["question"],   # "cause" or "effect"
+            "question": q_label,          # "cause" or "effect" (always English for downstream use)
             "choice1": ex["choice1"],
             "choice2": ex["choice2"],
             "correct_label": ex["label"], # 0=choice1, 1=choice2
             "prompt": XCOPA_TEMPLATE[lang].format(
                 premise=ex["premise"],
-                question=ex["question"],
+                question=q_translated,
                 choice1=ex["choice1"],
                 choice2=ex["choice2"],
             ),
@@ -132,13 +150,21 @@ def process_xcopa(lang):
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    # Original languages — seed 42, order preserved so existing samples are unchanged
     print("\n=== TruthfulQA ===")
     for lang in ["en", "es"]:
         process_truthfulqa(lang)
 
     print("\n=== XCOPA ===")
-    # Note: Spanish (es) is not available in the XCOPA dataset; using en + sw only
     for lang in ["en", "sw"]:
         process_xcopa(lang)
+
+    # Italian added separately with its own seed to avoid shifting existing samples
+    # (addresses grader feedback: need a non-English language shared across both tasks)
+    print("\n=== Italian (shared language for confound control) ===")
+    random.seed(44)
+    process_truthfulqa("it")
+    random.seed(44)
+    process_xcopa("it")
 
     print("\nAll prompts saved to data/prompts/")

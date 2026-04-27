@@ -1,0 +1,1352 @@
+[
+  {
+    "premise": "La ragazza schiacciò il tubetto del dentifricio.",
+    "choice1": "Il dentifricio schizzò fuori dal tubetto.",
+    "choice2": "La ragazza sputò il dentifricio.",
+    "question": "effect",
+    "label": 0,
+    "idx": 209,
+    "changed": false
+  },
+  {
+    "premise": "Il cane del mio amico è morto.",
+    "choice1": "Ho alzato gli occhi al cielo.",
+    "choice2": "L'ho abbracciato.",
+    "question": "effect",
+    "label": 1,
+    "idx": 266,
+    "changed": false
+  },
+  {
+    "premise": "La famiglia ha perso tutti i suoi averi.",
+    "choice1": "Hanno venduto la casa.",
+    "choice2": "La loro casa è andata in fiamme.",
+    "question": "cause",
+    "label": 1,
+    "idx": 277,
+    "changed": false
+  },
+  {
+    "premise": "Mi scusai con il mio amico.",
+    "choice1": "Il mio amico mi perdonò.",
+    "choice2": "Il mio amico si infuriò.",
+    "question": "effect",
+    "label": 0,
+    "idx": 359,
+    "changed": false
+  },
+  {
+    "premise": "Il padre colse il figlio a mentire.",
+    "choice1": "Suo figlio confessò la verità.",
+    "choice2": "Il padre si fidò del figlio.",
+    "question": "effect",
+    "label": 0,
+    "idx": 441,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo premette il lembo umido dell'involucro.",
+    "choice1": "Mise un francobollo sull'involucro.",
+    "choice2": "Sigillò e chiuse l'involucro.",
+    "question": "effect",
+    "label": 1,
+    "idx": 59,
+    "changed": false
+  },
+  {
+    "premise": "La donna aveva viaggiato all'estero.",
+    "choice1": "Voleva imparare a disegnare.",
+    "choice2": "Voleva conoscere altre culture.",
+    "question": "cause",
+    "label": 1,
+    "idx": 90,
+    "changed": false
+  },
+  {
+    "premise": "La lava fuoriusciva dal vulcano.",
+    "choice1": "Il vulcano ha eruttato.",
+    "choice2": "Il vulcano era dormiente.",
+    "question": "cause",
+    "label": 0,
+    "idx": 194,
+    "changed": false
+  },
+  {
+    "premise": "La donna faticava a camminare.",
+    "choice1": "Indossava dei tacchi alti.",
+    "choice2": "Si era tolta le scarpe.",
+    "question": "cause",
+    "label": 0,
+    "idx": 115,
+    "changed": false
+  },
+  {
+    "premise": "La donna era rimasta a casa dal lavoro.",
+    "choice1": "Il suo capo l'ha lodata.",
+    "choice2": "La sua collega di lavoro l'ha coperta.",
+    "question": "effect",
+    "label": 1,
+    "idx": 148,
+    "changed": false
+  },
+  {
+    "premise": "Il marinaio fu messo in quarantena.",
+    "choice1": "Era stato esposto alla malattia.",
+    "choice2": "Guarì dalla malattia.",
+    "question": "cause",
+    "label": 0,
+    "idx": 14,
+    "changed": false
+  },
+  {
+    "premise": "La porta del mio ufficio era aperta.",
+    "choice1": "Parlai al collega alla mia scrivania.",
+    "choice2": "Sentii per caso la conversazione nella sala.",
+    "question": "effect",
+    "label": 1,
+    "idx": 491,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo scrisse un testamento.",
+    "choice1": "Stava morendo.",
+    "choice2": "Era vedovo.",
+    "question": "cause",
+    "label": 0,
+    "idx": 494,
+    "changed": false
+  },
+  {
+    "premise": "Ho strappato i capelli all'impostore.",
+    "choice1": "La sua parrucca si è staccata.",
+    "choice2": "È diventato pelato.",
+    "question": "effect",
+    "label": 0,
+    "idx": 291,
+    "changed": false
+  },
+  {
+    "premise": "L'ufficio era chiuso.",
+    "choice1": "Era vacanza.",
+    "choice2": "Era estate.",
+    "question": "cause",
+    "label": 0,
+    "idx": 4,
+    "changed": false
+  },
+  {
+    "premise": "Il radar del pilota rilevò una tempesta.",
+    "choice1": "Il pilota navigò lontano dalla tempesta.",
+    "choice2": "Il pilota volò attraverso la tempesta.",
+    "question": "effect",
+    "label": 0,
+    "idx": 51,
+    "changed": false
+  },
+  {
+    "premise": "Accesi il ventilatore.",
+    "choice1": "Spruzzò acqua sulla mia pelle.",
+    "choice2": "Sentii dell'aria fredda passarmi addosso.",
+    "question": "effect",
+    "label": 1,
+    "idx": 80,
+    "changed": false
+  },
+  {
+    "premise": "La ragazza aveva inviato al ragazzo un biglietto di S. Valentino.",
+    "choice1": "Lui le piaceva.",
+    "choice2": "Lei lo aveva baciato.",
+    "question": "cause",
+    "label": 0,
+    "idx": 396,
+    "changed": false
+  },
+  {
+    "premise": "La famiglia ha traslocato in una casa più grande.",
+    "choice1": "Il figlio si è diplomato al liceo.",
+    "choice2": "La madre ha dato vita a due gemelli.",
+    "question": "cause",
+    "label": 1,
+    "idx": 263,
+    "changed": false
+  },
+  {
+    "premise": "Il libro mi aveva ammaliato.",
+    "choice1": "Restituii il libro.",
+    "choice2": "Persi la cognizione del tempo.",
+    "question": "effect",
+    "label": 1,
+    "idx": 352,
+    "changed": false
+  },
+  {
+    "premise": "Ho acceso un fuoco nel caminetto.",
+    "choice1": "Non c'era più legna.",
+    "choice2": "Faceva freddo nella casa.",
+    "question": "cause",
+    "label": 1,
+    "idx": 155,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo mangiò il gelato sotto il sole.",
+    "choice1": "Il gelato perse il suo sapore.",
+    "choice2": "Il gelato sgocciolò dal cono.",
+    "question": "effect",
+    "label": 1,
+    "idx": 355,
+    "changed": false
+  },
+  {
+    "premise": "Il giocatore d'azzardo era sicuro di sé.",
+    "choice1": "Scommise tutto il suo denaro.",
+    "choice2": "Tornò a casa squattrinato.",
+    "question": "effect",
+    "label": 0,
+    "idx": 324,
+    "changed": false
+  },
+  {
+    "premise": "La donna aveva le borse sotto gli occhi.",
+    "choice1": "È rimasta tutta la notte sveglia.",
+    "choice2": "Ha fatto addormentare il figlio.",
+    "question": "cause",
+    "label": 0,
+    "idx": 193,
+    "changed": false
+  },
+  {
+    "premise": "L'artista miscelò la tempera gialla con quella blu.",
+    "choice1": "La tempera spruzzò dappertutto.",
+    "choice2": "La tempera diventò verde.",
+    "question": "effect",
+    "label": 1,
+    "idx": 302,
+    "changed": false
+  },
+  {
+    "premise": "Il campanello suonò.",
+    "choice1": "Il visitatore bussò alla porta con il battente .",
+    "choice2": "La donna sbirciò fuori attraverso il buco della serratura nella porta.",
+    "question": "effect",
+    "label": 1,
+    "idx": 207,
+    "changed": false
+  },
+  {
+    "premise": "Il turno dell'impiegato era finito.",
+    "choice1": "Andò a casa per quel giorno.",
+    "choice2": "Minacciò di licenziarsi.",
+    "question": "effect",
+    "label": 0,
+    "idx": 392,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo aveva convinzioni simili a quelle dei suoi genitori.",
+    "choice1": "I suoi genitori lo avevano influenzato.",
+    "choice2": "I suoi genitori lo avevano ripudiato.",
+    "question": "cause",
+    "label": 0,
+    "idx": 353,
+    "changed": false
+  },
+  {
+    "premise": "Alla donna mancavano i soldi per l'affitto.",
+    "choice1": "Fece gli straordinari a lavoro.",
+    "choice2": "Si licenziò da lavoro.",
+    "question": "effect",
+    "label": 0,
+    "idx": 343,
+    "changed": false
+  },
+  {
+    "premise": "Ho appeso la biancheria bagnata sullo stendino di fuori.",
+    "choice1": "La biancheria si è asciugata.",
+    "choice2": "La biancheria si è macchiata.",
+    "question": "effect",
+    "label": 0,
+    "idx": 166,
+    "changed": false
+  },
+  {
+    "premise": "Il fotografo si è dimenticato di usare il flash.",
+    "choice1": "Le foto sono uscite sfocate.",
+    "choice2": "Tutte le persone nella foto si sono rifiutate di sorridere.",
+    "question": "effect",
+    "label": 0,
+    "idx": 183,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo prese delle pillole per dormire.",
+    "choice1": "Divenne sonnolento.",
+    "choice2": "Gli venne la febbre.",
+    "question": "effect",
+    "label": 0,
+    "idx": 37,
+    "changed": false
+  },
+  {
+    "premise": "È iniziato a piovere.",
+    "choice1": "L'autista ha accesso i fari.",
+    "choice2": "L'autista ha messo la macchina in retromarcia.",
+    "question": "effect",
+    "label": 0,
+    "idx": 173,
+    "changed": false
+  },
+  {
+    "premise": "I narcisi nel giardino erano stati distrutti.",
+    "choice1": "Un'ape aveva punto il giardiniere.",
+    "choice2": "Degli scoiattoli avevano dissotterrato i bulbi.",
+    "question": "cause",
+    "label": 1,
+    "idx": 430,
+    "changed": false
+  },
+  {
+    "premise": "Il bambino ha lasciato delle briciole sul pavimento.",
+    "choice1": "Le formiche si sono arrampicate verso le briciole.",
+    "choice2": "Il bambino ha messo via il pane.",
+    "question": "effect",
+    "label": 0,
+    "idx": 144,
+    "changed": false
+  },
+  {
+    "premise": "Mi svegliai nel mezzo della notte per il freddo.",
+    "choice1": "Indossai i pantaloni della tuta.",
+    "choice2": "Bevvi un bicchier d'acqua.",
+    "question": "effect",
+    "label": 0,
+    "idx": 316,
+    "changed": false
+  },
+  {
+    "premise": "I surfisti ritornarono sulla spiaggia.",
+    "choice1": "Erano fradici.",
+    "choice2": "Avevano visto uno squalo.",
+    "question": "cause",
+    "label": 1,
+    "idx": 81,
+    "changed": false
+  },
+  {
+    "premise": "Il lavandino del bagno era intasato.",
+    "choice1": "Aprii il rubinetto.",
+    "choice2": "Ci versai dentro dell'acido muriatico.",
+    "question": "effect",
+    "label": 1,
+    "idx": 57,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo si è spruzzato il profumo.",
+    "choice1": "Voleva fare colpo sulla sua accompagnatrice.",
+    "choice2": "Si è ingellato i capelli.",
+    "question": "cause",
+    "label": 0,
+    "idx": 261,
+    "changed": false
+  },
+  {
+    "premise": "Ho perso la pazienza.",
+    "choice1": "Il mio amico mi aveva fatto aspettare.",
+    "choice2": "Il mio amico arrivò in tempo.",
+    "question": "cause",
+    "label": 0,
+    "idx": 35,
+    "changed": false
+  },
+  {
+    "premise": "Lo studente si laureò all'università.",
+    "choice1": "Cercò un lavoro.",
+    "choice2": "Si trovò un passatempo.",
+    "question": "effect",
+    "label": 0,
+    "idx": 301,
+    "changed": false
+  },
+  {
+    "premise": "Il cassiere aprì la cassa.",
+    "choice1": "Il cliente cercò nel suo portafogli.",
+    "choice2": "Il cliente gli diede i propri soldi.",
+    "question": "cause",
+    "label": 1,
+    "idx": 48,
+    "changed": false
+  },
+  {
+    "premise": "I due bambini si abbassarono simultaneamente per prendere il pallone.",
+    "choice1": "Il pallone è rotolato via.",
+    "choice2": "Hanno battuto la testa uno contro l'altro.",
+    "question": "effect",
+    "label": 1,
+    "idx": 138,
+    "changed": false
+  },
+  {
+    "premise": "Ho incontrato un vecchio amico.",
+    "choice1": "Gli ho svelato un segreto.",
+    "choice2": "L'ho abbracciato.",
+    "question": "effect",
+    "label": 1,
+    "idx": 161,
+    "changed": false
+  },
+  {
+    "premise": "Il bambino sparse il mangime per pesci nell'acquario.",
+    "choice1": "Il pesce balzò fuori dall'acquario.",
+    "choice2": "Il pesce nuotò verso il mangime.",
+    "question": "effect",
+    "label": 1,
+    "idx": 55,
+    "changed": false
+  },
+  {
+    "premise": "Ieri mi esercitai in palestra.",
+    "choice1": "Oggi mi  sono svegliato con i muscoli doloranti.",
+    "choice2": "Oggi mi sono svegliato con la gola infiammata.",
+    "question": "effect",
+    "label": 0,
+    "idx": 320,
+    "changed": false
+  },
+  {
+    "premise": "Il giocatore colpì la palla verso la buca.",
+    "choice1": "La palla finì in buca.",
+    "choice2": "La palla ripiegò indietro verso il giocatore.",
+    "question": "effect",
+    "label": 0,
+    "idx": 420,
+    "changed": false
+  },
+  {
+    "premise": "La mia caviglia era gonfia.",
+    "choice1": "Ci misi sopra del ghiaccio.",
+    "choice2": "Ci strofinai sopra della lozione.",
+    "question": "effect",
+    "label": 0,
+    "idx": 490,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo rimase silenzioso quando l'amico finì di parlare.",
+    "choice1": "Voleva offrire supporto all'amico.",
+    "choice2": "Stava pensando alle parole dell'amico.",
+    "question": "cause",
+    "label": 1,
+    "idx": 17,
+    "changed": false
+  },
+  {
+    "premise": "L'impiegato mi ha chiuso il telefono in faccia.",
+    "choice1": "Ho chiesto di rivolgermi ad un superiore.",
+    "choice2": "Gli ho fornito il mio numero identificativo.",
+    "question": "cause",
+    "label": 0,
+    "idx": 176,
+    "changed": false
+  },
+  {
+    "premise": "Il dirigente è andato in bancarotta.",
+    "choice1": "Ha venduto tutte le azioni della compagnia.",
+    "choice2": "Ha sperperato le sue fortune.",
+    "question": "cause",
+    "label": 1,
+    "idx": 197,
+    "changed": false
+  },
+  {
+    "premise": "Il musicista di strada attirò una folla.",
+    "choice1": "La gente gli diede degli spiccioli.",
+    "choice2": "Lui mandò via la folla.",
+    "question": "effect",
+    "label": 0,
+    "idx": 49,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo ha perso l'equilibrio sullo sgabello.",
+    "choice1": "Lo sgabello traballava sotto di lui.",
+    "choice2": "Ha rovesciato della pittura sullo sgabello.",
+    "question": "cause",
+    "label": 0,
+    "idx": 244,
+    "changed": false
+  },
+  {
+    "premise": "Ho asciugato le mie mani con un asciugamano.",
+    "choice1": "L'asciugamano era bagnato.",
+    "choice2": "Le mie mani erano bagnate.",
+    "question": "cause",
+    "label": 1,
+    "idx": 243,
+    "changed": false
+  },
+  {
+    "premise": "L'elettricità nella casa saltò.",
+    "choice1": "Accesi una luce.",
+    "choice2": "Resettai il salvavita.",
+    "question": "effect",
+    "label": 1,
+    "idx": 97,
+    "changed": true
+  },
+  {
+    "premise": "Dei libri caddero dalla libreria.",
+    "choice1": "Gli scaffali erano ricoperti da polvere.",
+    "choice2": "Un terremoto aveva scosso la libreria.",
+    "question": "cause",
+    "label": 1,
+    "idx": 96,
+    "changed": false
+  },
+  {
+    "premise": "La donna si era seduta sulla veranda.",
+    "choice1": "Voleva guardare il tramonto.",
+    "choice2": "Pensò di aver visto un fulmine.",
+    "question": "cause",
+    "label": 0,
+    "idx": 66,
+    "changed": false
+  },
+  {
+    "premise": "I cittadini appesero la bandiera nazionale sulla facciata delle loro case.",
+    "choice1": "Il paese stava commemorando la sua indipendenza.",
+    "choice2": "Il paese stava affrontando una grave situazione economica.",
+    "question": "cause",
+    "label": 0,
+    "idx": 132,
+    "changed": false
+  },
+  {
+    "premise": "Il condimento era insipido.",
+    "choice1": "Lo servii.",
+    "choice2": "Ci misi del sale.",
+    "question": "effect",
+    "label": 1,
+    "idx": 382,
+    "changed": false
+  },
+  {
+    "premise": "Il palazzo è stato evacuato.",
+    "choice1": "L'ascensore ha smesso di funzionare.",
+    "choice2": "È scattato l'allarme antincendio.",
+    "question": "cause",
+    "label": 1,
+    "idx": 126,
+    "changed": false
+  },
+  {
+    "premise": "Annuii all'affermazione del mio amico.",
+    "choice1": "Ero confuso.",
+    "choice2": "Ero d'accordo con lui.",
+    "question": "cause",
+    "label": 1,
+    "idx": 397,
+    "changed": false
+  },
+  {
+    "premise": "La giocatrice vinse cinque partite di fila.",
+    "choice1": "La sua avversaria l'accusò di imbrogliare.",
+    "choice2": "La sua avversaria si dispiacque per lei.",
+    "question": "effect",
+    "label": 0,
+    "idx": 25,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo aveva previsto temperature basse durante il suo viaggio.",
+    "choice1": "Aveva messo in valigia indumenti caldi.",
+    "choice2": "Stava viaggiando con una grande valigia.",
+    "question": "effect",
+    "label": 0,
+    "idx": 22,
+    "changed": false
+  },
+  {
+    "premise": "La mano del mabino si ritrasse rapidamente.",
+    "choice1": "Aveva toccato i fornelli caldi.",
+    "choice2": "Aveva accarezzato la testa del cucciolo di cane.",
+    "question": "cause",
+    "label": 0,
+    "idx": 344,
+    "changed": false
+  },
+  {
+    "premise": "La voce dell'uomo si diffuse chiaramente per l'intero auditorio.",
+    "choice1": "Salutò il pubblico.",
+    "choice2": "Parlò nel microfono.",
+    "question": "cause",
+    "label": 1,
+    "idx": 418,
+    "changed": false
+  },
+  {
+    "premise": "La famosa statua era bruciata.",
+    "choice1": "Era stata colpita da un fulmine.",
+    "choice2": "La gente veniva a venerarla.",
+    "question": "cause",
+    "label": 0,
+    "idx": 348,
+    "changed": false
+  },
+  {
+    "premise": "Mi sono scansato.",
+    "choice1": "I fuochi d'artificio sono stati lanciati in aria.",
+    "choice2": "Il frisbee è planato verso la mia testa.",
+    "question": "cause",
+    "label": 1,
+    "idx": 223,
+    "changed": false
+  },
+  {
+    "premise": "Gli immigrati furono sorpresi a risiedere illegalmente nel paese.",
+    "choice1": "Trovarono un impiego.",
+    "choice2": "Furono deportati.",
+    "question": "effect",
+    "label": 1,
+    "idx": 363,
+    "changed": false
+  },
+  {
+    "premise": "La catena si ruppe.",
+    "choice1": "La catena era montata su una ruota.",
+    "choice2": "C'era un anello rotto nella catena.",
+    "question": "cause",
+    "label": 1,
+    "idx": 19,
+    "changed": false
+  },
+  {
+    "premise": "Non vedevo l'ora del fine settimana.",
+    "choice1": "Avevo intenzione di partecipare al funerale di mio zio.",
+    "choice2": "Avevo intenzione di partecipare al matrimonio del mio amico.",
+    "question": "cause",
+    "label": 1,
+    "idx": 378,
+    "changed": false
+  },
+  {
+    "premise": "Fissai il sole.",
+    "choice1": "Il sole mi accecò.",
+    "choice2": "Il sole abbronzò la mia pelle.",
+    "question": "effect",
+    "label": 0,
+    "idx": 365,
+    "changed": false
+  },
+  {
+    "premise": "La ragazza appariva pallida.",
+    "choice1": "Suo padre le raccontò una storia.",
+    "choice2": "Suo padre le sentì la fronte.",
+    "question": "effect",
+    "label": 1,
+    "idx": 478,
+    "changed": false
+  },
+  {
+    "premise": "Il criminale puntò la pistola contro la vittima.",
+    "choice1": "Il criminale abbassò la pistola.",
+    "choice2": "La vittima alzò le mani.",
+    "question": "effect",
+    "label": 1,
+    "idx": 377,
+    "changed": false
+  },
+  {
+    "premise": "I muscoli sul braccio dell'uomo sporsero.",
+    "choice1": "Aveva contratto le braccia.",
+    "choice2": "Aveva massaggiato le braccia.",
+    "question": "cause",
+    "label": 0,
+    "idx": 334,
+    "changed": false
+  },
+  {
+    "premise": "La donna esaurì lo spazio nel suo armadio.",
+    "choice1": "Aveva acquistato un ampio guardaroba.",
+    "choice2": "Aveva piegato il bucato.",
+    "question": "cause",
+    "label": 0,
+    "idx": 415,
+    "changed": true
+  },
+  {
+    "premise": "L'uomo ammirò il cielo notturno.",
+    "choice1": "Desiderava fosse estate.",
+    "choice2": "Pensava che fosse stupendo.",
+    "question": "cause",
+    "label": 1,
+    "idx": 168,
+    "changed": false
+  },
+  {
+    "premise": "Una macchina ignota ha parcheggiato fuori casa mia.",
+    "choice1": "Mi sono insospettita.",
+    "choice2": "Ho chiamato la polizia.",
+    "question": "effect",
+    "label": 0,
+    "idx": 189,
+    "changed": false
+  },
+  {
+    "premise": "La ragazzina era in imbarazzo ad andare a scuola.",
+    "choice1": "Aveva un brufolo.",
+    "choice2": "Si è tolta l'apparecchio per i denti.",
+    "question": "cause",
+    "label": 0,
+    "idx": 241,
+    "changed": false
+  },
+  {
+    "premise": "La bambina atterrò sul tappeto elastico.",
+    "choice1": "Si librò di nuovo in aria.",
+    "choice2": "Decise di provare a fare una capriola.",
+    "question": "effect",
+    "label": 0,
+    "idx": 322,
+    "changed": false
+  },
+  {
+    "premise": "Il mercurio nel termometro si è alzato.",
+    "choice1": "Ho fatto cadere il termometro.",
+    "choice2": "Il clima si è scaldato.",
+    "question": "cause",
+    "label": 1,
+    "idx": 232,
+    "changed": false
+  },
+  {
+    "premise": "Il gruppo se ne andò dal museo.",
+    "choice1": "Avevano scattato foto della mostra.",
+    "choice2": "Avevano visto tutte le opere.",
+    "question": "cause",
+    "label": 1,
+    "idx": 475,
+    "changed": false
+  },
+  {
+    "premise": "La donna fu incriminata per un reato minore.",
+    "choice1": "Fu condannata a svolgere dei servizi sociali.",
+    "choice2": "Fu messa nel braccio della morte.",
+    "question": "effect",
+    "label": 0,
+    "idx": 410,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo è stato rilasciato dal carcere.",
+    "choice1": "La sua famiglia ha pagato la cauzione.",
+    "choice2": "Lui ha attaccato un altro prigioniero.",
+    "question": "cause",
+    "label": 0,
+    "idx": 276,
+    "changed": false
+  },
+  {
+    "premise": "La neve stava bloccando il vialetto.",
+    "choice1": "Feci una palla di neve.",
+    "choice2": "Spalai via la neve.",
+    "question": "effect",
+    "label": 1,
+    "idx": 77,
+    "changed": false
+  },
+  {
+    "premise": "Tutti erano contro il fidanzamento ufficiale della coppia.",
+    "choice1": "La coppia era in dolce attesa.",
+    "choice2": "La coppia si è sposata di nascosto.",
+    "question": "effect",
+    "label": 1,
+    "idx": 119,
+    "changed": false
+  },
+  {
+    "premise": "La donna si è annoiata con il suo fidanzato.",
+    "choice1": "Lui chiedeva domande su di lei.",
+    "choice2": "Parlava di se stesso in maniera incessante.",
+    "question": "cause",
+    "label": 1,
+    "idx": 247,
+    "changed": false
+  },
+  {
+    "premise": "Un tornado è passato attraverso la città.",
+    "choice1": "Il tetto del tribunale è volato via.",
+    "choice2": "L'autostrada era pericolosamente ghiacciata.",
+    "question": "effect",
+    "label": 0,
+    "idx": 233,
+    "changed": false
+  },
+  {
+    "premise": "La donna si trattenne nella vasca.",
+    "choice1": "L'acqua del bagno divenne tiepida.",
+    "choice2": "La vasca si prosciugò dell'acqua da bagno.",
+    "question": "effect",
+    "label": 0,
+    "idx": 406,
+    "changed": false
+  },
+  {
+    "premise": "Il condizionatore dentro casa si era rotto.",
+    "choice1": "Tirai fuori le coperte.",
+    "choice2": "Aprii le finestre.",
+    "question": "effect",
+    "label": 1,
+    "idx": 427,
+    "changed": false
+  },
+  {
+    "premise": "La ballerina si strappò un legamento.",
+    "choice1": "Si era messa in punta di piedi.",
+    "choice2": "Si era storta la caviglia.",
+    "question": "cause",
+    "label": 1,
+    "idx": 350,
+    "changed": false
+  },
+  {
+    "premise": "Il vento soffiò attraverso la finestra aperta.",
+    "choice1": "Il campanello squillò.",
+    "choice2": "Le tende oscillarono.",
+    "question": "effect",
+    "label": 1,
+    "idx": 177,
+    "changed": false
+  },
+  {
+    "premise": "Camminai a piedi nudi sulla spiaggia.",
+    "choice1": "La sabbia si appiccicò ai miei piedi.",
+    "choice2": "Le onde si infransero lungo la spiaggia.",
+    "question": "effect",
+    "label": 0,
+    "idx": 315,
+    "changed": false
+  },
+  {
+    "premise": "Mischiai dello zucchero nel tè caldo.",
+    "choice1": "Il tè fumava.",
+    "choice2": "Lo zucchero si sciolse.",
+    "question": "effect",
+    "label": 1,
+    "idx": 411,
+    "changed": false
+  },
+  {
+    "premise": "Spremetti lo spicchio di limone.",
+    "choice1": "Il limone ammuffì.",
+    "choice2": "Il limone si spruzzò.",
+    "question": "effect",
+    "label": 1,
+    "idx": 437,
+    "changed": false
+  },
+  {
+    "premise": "Il graffio sulla mia pelle era profondo.",
+    "choice1": "È guarito velocemente.",
+    "choice2": "Ha lasciato una cicatrice.",
+    "question": "effect",
+    "label": 1,
+    "idx": 142,
+    "changed": false
+  },
+  {
+    "premise": "Passai l'aspirapolvere sul tappeto.",
+    "choice1": "Il mio compagno di camera aveva rovesciato un cocktail.",
+    "choice2": "Il mio cane aveva perso dei peli.",
+    "question": "cause",
+    "label": 1,
+    "idx": 483,
+    "changed": false
+  },
+  {
+    "premise": "La ragazza lanciò un ramoscello nel falò.",
+    "choice1": "Il ramoscello bruciò.",
+    "choice2": "Il fuoco si estinse.",
+    "question": "effect",
+    "label": 0,
+    "idx": 485,
+    "changed": false
+  },
+  {
+    "premise": "Ho fatto una crostata di mele.",
+    "choice1": "La cucina puzzava di marcio.",
+    "choice2": "La cucina aveva un profumino accogliente.",
+    "question": "effect",
+    "label": 1,
+    "idx": 114,
+    "changed": false
+  },
+  {
+    "premise": "La ragazza si era tappata il naso.",
+    "choice1": "La bambina aveva sbavato sul bavaglino.",
+    "choice2": "La bambina aveva sporcato il pannolino.",
+    "question": "cause",
+    "label": 1,
+    "idx": 7,
+    "changed": false
+  },
+  {
+    "premise": "I capelli del ragazzo erano arruffati.",
+    "choice1": "La ragazza li ha scompigliati.",
+    "choice2": "La ragazza li ha tirati.",
+    "question": "cause",
+    "label": 0,
+    "idx": 296,
+    "changed": false
+  },
+  {
+    "premise": "L'aereo incontrò qualche turbolenza.",
+    "choice1": "L'uomo strinse la propria cintura di sicurezza.",
+    "choice2": "L'uomo guardò fuori dal finestrino.",
+    "question": "effect",
+    "label": 0,
+    "idx": 385,
+    "changed": false
+  },
+  {
+    "premise": "La donna comunicò attraverso la lingua dei segni.",
+    "choice1": "Era nata prematura.",
+    "choice2": "Era sorda dalla nascita.",
+    "question": "cause",
+    "label": 1,
+    "idx": 309,
+    "changed": false
+  },
+  {
+    "premise": "La dottoressa fece una diagnosi al paziente.",
+    "choice1": "Identificò i sintomi del paziente.",
+    "choice2": "Prescrisse delle pillole al paziente.",
+    "question": "cause",
+    "label": 0,
+    "idx": 331,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo voleva vedere l'alba.",
+    "choice1": "Ha viaggiato verso nord.",
+    "choice2": "Si è alzato presto.",
+    "question": "effect",
+    "label": 1,
+    "idx": 284,
+    "changed": false
+  },
+  {
+    "premise": "Ho calpestato la lattina.",
+    "choice1": "La lattina è stata riciclata.",
+    "choice2": "La lattina è stata schiacciata.",
+    "question": "effect",
+    "label": 1,
+    "idx": 278,
+    "changed": false
+  },
+  {
+    "premise": "Dell'acqua schizzò fuori dalla piscina.",
+    "choice1": "La nuotatrice si era tuffata in piscina.",
+    "choice2": "La nuotatrice galleggiava in piscina.",
+    "question": "cause",
+    "label": 0,
+    "idx": 465,
+    "changed": false
+  },
+  {
+    "premise": "La bambina ha tirato il gavettone al bambino.",
+    "choice1": "Il ragazzo ha avuto una commozione cerebrale.",
+    "choice2": "Il ragazzo si è inzuppato.",
+    "question": "effect",
+    "label": 1,
+    "idx": 182,
+    "changed": false
+  },
+  {
+    "premise": "Lo studente ha finito il libro in fretta.",
+    "choice1": "Era tempo di riportarlo in biblioteca.",
+    "choice2": "L'ha preso in prestito da un amico.",
+    "question": "cause",
+    "label": 0,
+    "idx": 288,
+    "changed": false
+  },
+  {
+    "premise": "L'oratore ha fatto dei commenti politicamente scorretti.",
+    "choice1": "Ha annoiato il pubblico.",
+    "choice2": "Ha offeso il pubblico.",
+    "question": "effect",
+    "label": 1,
+    "idx": 101,
+    "changed": false
+  },
+  {
+    "premise": "La donna mi stava fissando.",
+    "choice1": "La abbracciai.",
+    "choice2": "Mi sentii a disagio.",
+    "question": "effect",
+    "label": 1,
+    "idx": 474,
+    "changed": false
+  },
+  {
+    "premise": "Misi la mano sul petto.",
+    "choice1": "Sentii il battito del mio cuore.",
+    "choice2": "La frequenza cardiaca accelerò.",
+    "question": "effect",
+    "label": 0,
+    "idx": 462,
+    "changed": false
+  },
+  {
+    "premise": "Ho rifiutato l'invito alla festa di compleanno.",
+    "choice1": "Ero solo.",
+    "choice2": "Ero fuori città.",
+    "question": "cause",
+    "label": 1,
+    "idx": 184,
+    "changed": false
+  },
+  {
+    "premise": "Il parcheggio del palazzo era vuoto.",
+    "choice1": "Ho parcheggiato dall'altro lato della strada.",
+    "choice2": "Ho parcheggiato vicino all'entrata.",
+    "question": "effect",
+    "label": 1,
+    "idx": 174,
+    "changed": false
+  },
+  {
+    "premise": "Chiesi consiglio al mio amico.",
+    "choice1": "Stimavo la sua opinione.",
+    "choice2": "Sapevo di aver ragione.",
+    "question": "cause",
+    "label": 0,
+    "idx": 389,
+    "changed": false
+  },
+  {
+    "premise": "La donna calpestò le fiamme.",
+    "choice1": "Le fiamme si spensero.",
+    "choice2": "Del fumo si alzò dalle fiamme.",
+    "question": "effect",
+    "label": 0,
+    "idx": 402,
+    "changed": false
+  },
+  {
+    "premise": "Ci fu siccità nella regione.",
+    "choice1": "L'acqua fu contaminata.",
+    "choice2": "Il raccolto andò distrutto.",
+    "question": "effect",
+    "label": 1,
+    "idx": 310,
+    "changed": false
+  },
+  {
+    "premise": "Mi sentivo annoiato.",
+    "choice1": "Sbuffai.",
+    "choice2": "Sbadigliai.",
+    "question": "effect",
+    "label": 1,
+    "idx": 366,
+    "changed": false
+  },
+  {
+    "premise": "La ragazza atterrò in piscina.",
+    "choice1": "Corse sul bordo della piscina.",
+    "choice2": "Saltò dal trampolino.",
+    "question": "cause",
+    "label": 1,
+    "idx": 30,
+    "changed": false
+  },
+  {
+    "premise": "Ho chiamato il mio amico per chiaccherare.",
+    "choice1": "Cercavo la solitudine.",
+    "choice2": "Mi sentivo solo.",
+    "question": "cause",
+    "label": 1,
+    "idx": 221,
+    "changed": false
+  },
+  {
+    "premise": "Gli occhi dell'uomo si riempirono di lacrime.",
+    "choice1": "Gli era entrata della polvere negli occhi.",
+    "choice2": "Aveva indossato degli occhialini.",
+    "question": "cause",
+    "label": 0,
+    "idx": 24,
+    "changed": false
+  },
+  {
+    "premise": "Il pavimento in legno era graffiato.",
+    "choice1": "Il ragazzo aveva gettato i cuscini giù dal divano.",
+    "choice2": "Il ragazzo aveva trascinato una sedia sul pavimento.",
+    "question": "cause",
+    "label": 1,
+    "idx": 346,
+    "changed": false
+  },
+  {
+    "premise": "Il ragazzo indossava l'apparecchio.",
+    "choice1": "Prese le carie.",
+    "choice2": "Il suoi denti si raddrizzarono.",
+    "question": "effect",
+    "label": 1,
+    "idx": 319,
+    "changed": false
+  },
+  {
+    "premise": "Il mio viso si è illuminato.",
+    "choice1": "Ho ricevuto delle buone notizie.",
+    "choice2": "Ho perso la pazienza.",
+    "question": "cause",
+    "label": 0,
+    "idx": 242,
+    "changed": false
+  },
+  {
+    "premise": "Guardai l'orologio.",
+    "choice1": "Avevo sentito l'orologio ticchettare.",
+    "choice2": "Volevo controllare l'ora.",
+    "question": "cause",
+    "label": 1,
+    "idx": 62,
+    "changed": false
+  },
+  {
+    "premise": "I ricercatori dimostrarono la teoria.",
+    "choice1": "I ricercatori ritrattarono la teoria.",
+    "choice2": "Le persone accettarono la teoria.",
+    "question": "effect",
+    "label": 1,
+    "idx": 73,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo era geloso dei suoi colleghi.",
+    "choice1": "I suoi colleghi avevano avuto una promozione.",
+    "choice2": "I suoi colleghi lavoravano fino a tardi.",
+    "question": "cause",
+    "label": 0,
+    "idx": 91,
+    "changed": false
+  },
+  {
+    "premise": "Bevvi un sorso del caffè bollente.",
+    "choice1": "Mi morsi la lingua.",
+    "choice2": "Mi scottai la lingua.",
+    "question": "effect",
+    "label": 1,
+    "idx": 328,
+    "changed": false
+  },
+  {
+    "premise": "Le termiti invasero la casa.",
+    "choice1": "Le termiti sparirono dalla casa.",
+    "choice2": "Le termiti rosero il legno della casa.",
+    "question": "effect",
+    "label": 1,
+    "idx": 2,
+    "changed": false
+  },
+  {
+    "premise": "La madre zittì suo figlio.",
+    "choice1": "Suo figlio fece una smorfia di soddisfazione.",
+    "choice2": "Suo figlio piagnucolava.",
+    "question": "cause",
+    "label": 1,
+    "idx": 317,
+    "changed": false
+  },
+  {
+    "premise": "Mi grattai la pelle.",
+    "choice1": "Era sudata.",
+    "choice2": "Prudeva.",
+    "question": "cause",
+    "label": 1,
+    "idx": 332,
+    "changed": false
+  },
+  {
+    "premise": "All'uomo batteva forte il cuore prima della sua esibizione.",
+    "choice1": "Aveva il panico da palcoscenico.",
+    "choice2": "Aveva memorizzato le sue battute.",
+    "question": "cause",
+    "label": 0,
+    "idx": 150,
+    "changed": false
+  },
+  {
+    "premise": "Mi sentivo esausto.",
+    "choice1": "Dormii per tutto il giorno.",
+    "choice2": "Studiai per tutto il giorno.",
+    "question": "cause",
+    "label": 1,
+    "idx": 330,
+    "changed": true
+  },
+  {
+    "premise": "L'uomo aveva perso peso.",
+    "choice1": "Le persone lo isolarono.",
+    "choice2": "Le persone si complimentarono con lui.",
+    "question": "effect",
+    "label": 1,
+    "idx": 32,
+    "changed": false
+  },
+  {
+    "premise": "Il procione ha rovistato il bidone della spazzatura.",
+    "choice1": "C'era del cartone all'interno del bidone della spazzatura.",
+    "choice2": "Il coperchio non copriva il bidone della spazzatura.",
+    "question": "cause",
+    "label": 1,
+    "idx": 139,
+    "changed": false
+  },
+  {
+    "premise": "La donna urtò il divano.",
+    "choice1": "La gamba del divano si allentò.",
+    "choice2": "Si fece un livido sul ginocchio.",
+    "question": "effect",
+    "label": 1,
+    "idx": 38,
+    "changed": false
+  },
+  {
+    "premise": "I viaggiatori raggiunsero il confine.",
+    "choice1": "L'agente di pattuglia controllò i loro passaporti.",
+    "choice2": "L'agente di pattuglia li accusò di contrabbando.",
+    "question": "effect",
+    "label": 0,
+    "idx": 3,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo protese la mano verso di me.",
+    "choice1": "Gli ho stretto la mano.",
+    "choice2": "L'ho schiaffeggiato.",
+    "question": "effect",
+    "label": 0,
+    "idx": 222,
+    "changed": false
+  },
+  {
+    "premise": "Il ragazzo ha temperato la matita.",
+    "choice1": "Costava poco.",
+    "choice2": "Era poco appuntita.",
+    "question": "cause",
+    "label": 1,
+    "idx": 140,
+    "changed": false
+  },
+  {
+    "premise": "Buttai via l'appunto.",
+    "choice1": "Era anonimo.",
+    "choice2": "Era illeggibile.",
+    "question": "cause",
+    "label": 1,
+    "idx": 374,
+    "changed": false
+  },
+  {
+    "premise": "All'uomo fu rifiutato un prestito.",
+    "choice1": "Era indebitato.",
+    "choice2": "Aveva avviato un'impresa.",
+    "question": "cause",
+    "label": 0,
+    "idx": 480,
+    "changed": false
+  },
+  {
+    "premise": "L'uomo imprecò.",
+    "choice1": "Si è tagliato le unghie.",
+    "choice2": "Ha sbattuto il dito.",
+    "question": "cause",
+    "label": 1,
+    "idx": 268,
+    "changed": false
+  },
+  {
+    "premise": "La donna inciampò sul marciapiede.",
+    "choice1": "C'era una fessura nel cemento.",
+    "choice2": "Sentì chiamare il proprio nome.",
+    "question": "effect",
+    "label": 0,
+    "idx": 454,
+    "changed": false
+  },
+  {
+    "premise": "Mi schermai la faccia.",
+    "choice1": "Il mio nemico mi aveva schernito.",
+    "choice2": "Il mio nemico aveva stretto il pugno.",
+    "question": "cause",
+    "label": 1,
+    "idx": 347,
+    "changed": false
+  },
+  {
+    "premise": "Facemmo un giro sulla montagne russe.",
+    "choice1": "Sembrava spaventoso.",
+    "choice2": "Sembrava divertente.",
+    "question": "cause",
+    "label": 1,
+    "idx": 98,
+    "changed": false
+  },
+  {
+    "premise": "I biglietti del film fecero il tutto esaurito.",
+    "choice1": "Era il lancio del film.",
+    "choice2": "Il film aveva ricevuto brutte recensioni.",
+    "question": "cause",
+    "label": 0,
+    "idx": 31,
+    "changed": false
+  },
+  {
+    "premise": "I passeggeri del treno guardarono strano l'uomo.",
+    "choice1": "Stava fissando il pavimento.",
+    "choice2": "Stava parlando da solo.",
+    "question": "cause",
+    "label": 1,
+    "idx": 143,
+    "changed": false
+  },
+  {
+    "premise": "Il laptop non si accendeva.",
+    "choice1": "L'avevo fatto cadere.",
+    "choice2": "L'avevo caricato.",
+    "question": "cause",
+    "label": 0,
+    "idx": 414,
+    "changed": false
+  },
+  {
+    "premise": "Il mio amico mi ha fatto notare che avevo del cibo incastrato fra i denti.",
+    "choice1": "Mi sono sentito in imbarazzo.",
+    "choice2": "Ero fiero di me stesso.",
+    "question": "effect",
+    "label": 0,
+    "idx": 134,
+    "changed": false
+  },
+  {
+    "premise": "Sulle mani della ragazza comparvero delle vesciche.",
+    "choice1": "Aveva scritto a macchina una lettera.",
+    "choice2": "Si era arrampicata su una corda.",
+    "question": "cause",
+    "label": 1,
+    "idx": 33,
+    "changed": false
+  },
+  {
+    "premise": "L'elettricità in casa è saltata.",
+    "choice1": "Ho cercato una torcia.",
+    "choice2": "Ho raccolto una pala.",
+    "question": "effect",
+    "label": 0,
+    "idx": 262,
+    "changed": false
+  }
+]

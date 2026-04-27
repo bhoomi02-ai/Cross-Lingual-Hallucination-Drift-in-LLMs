@@ -5,12 +5,12 @@ Downloads TruthfulQA and XCOPA from HuggingFace and saves
 raw data to data/raw/ as JSON files.
 
 Language coverage:
-  TruthfulQA : en (original), es (alexandrainst/m_truthfulqa)
+  TruthfulQA : en (original), es, it (alexandrainst/m_truthfulqa)
                sw is NOT available in m_truthfulqa (confirmed configs: ar,bn,ca,da,de,es,
                eu,fr,gu,hi,hr,hu,hy,id,it,kn,ml,mr,ne,nl,pt,ro,ru,sk,sr,sv,ta,te,uk,vi,zh).
-               Φₗ therefore uses a cross-language aggregate rather than per-language scores.
-  XCOPA      : en (SuperGLUE COPA), sw (xcopa)
-               Spanish is not available in XCOPA.
+  XCOPA      : en (SuperGLUE COPA), sw, it (xcopa)
+               Italian (it) is the shared non-English language across both datasets,
+               allowing task and language effects to be disentangled.
 
 Run: python src/01_load_datasets.py
 """
@@ -42,10 +42,10 @@ def load_truthfulqa():
     examples_es = [dict(ex) for ex in dataset_es["val"]]
     save_json(examples_es, f"{RAW_DIR}/truthfulqa_es.json")
 
-    # Swahili TruthfulQA: not available in alexandrainst/m_truthfulqa.
-    # If a sw translation is released in the future, load it here and add
-    # "sw" to the loop in 02_sample_and_format.py (template already defined).
-    print("  [skip] truthfulqa_sw — not available in alexandrainst/m_truthfulqa")
+    # Italian: use alexandrainst/m_truthfulqa — shared with XCOPA to break task/language confound
+    dataset_it = load_dataset("alexandrainst/m_truthfulqa", "it")
+    examples_it = [dict(ex) for ex in dataset_it["val"]]
+    save_json(examples_it, f"{RAW_DIR}/truthfulqa_it.json")
 
 
 def load_xcopa():
@@ -61,10 +61,15 @@ def load_xcopa():
     ]
     save_json(examples_en, f"{RAW_DIR}/xcopa_en.json")
 
-    # Swahili: use xcopa sw (Spanish is not available in XCOPA)
+    # Swahili: use xcopa sw
     dataset_sw = load_dataset("xcopa", "sw")
     examples_sw = [dict(ex) for ex in dataset_sw["test"]]
     save_json(examples_sw, f"{RAW_DIR}/xcopa_sw.json")
+
+    # Italian: use xcopa it — shared with TruthfulQA to break task/language confound
+    dataset_it = load_dataset("xcopa", "it")
+    examples_it = [dict(ex) for ex in dataset_it["test"]]
+    save_json(examples_it, f"{RAW_DIR}/xcopa_it.json")
 
 
 if __name__ == "__main__":
