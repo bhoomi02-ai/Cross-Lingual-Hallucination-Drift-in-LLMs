@@ -1,0 +1,3 @@
+language,cause_HR,effect_HR,delta_cause_minus_effect,chi2,p_chi2,significant,fisher_OR,p_fisher
+it,9.59,9.09,0.5,0.0,1.0,NO,0.94,1.0
+sw,96.43,100.0,-3.57,1.23,0.267553,NO,inf,0.137808

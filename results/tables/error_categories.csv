@@ -1,0 +1,17 @@
+task,language,category,count
+truthfulqa,en,other,27
+truthfulqa,en,wrong_answer,14
+truthfulqa,es,fabricated,1
+truthfulqa,es,incoherent,1
+truthfulqa,es,other,24
+truthfulqa,es,wrong_answer,11
+truthfulqa,it,fabricated,1
+truthfulqa,it,other,27
+truthfulqa,it,wrong_answer,15
+xcopa,en,other,7
+xcopa,en,wrong_answer,5
+xcopa,it,other,8
+xcopa,it,wrong_answer,6
+xcopa,sw,incoherent,40
+xcopa,sw,other,103
+xcopa,sw,wrong_answer,5

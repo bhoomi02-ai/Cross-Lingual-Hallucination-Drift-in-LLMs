@@ -19,9 +19,9 @@ TABLE_DIR  = "results/tables"
 FIGURE_DIR = "results/figures"
 os.makedirs(FIGURE_DIR, exist_ok=True)
 
-LANG_LABELS = {"en": "English", "es": "Spanish", "sw": "Swahili"}
+LANG_LABELS = {"en": "English", "es": "Spanish", "it": "Italian", "sw": "Swahili"}
 TASK_LABELS = {"truthfulqa": "TruthfulQA\n(Factual QA)", "xcopa": "XCOPA\n(Commonsense)"}
-COLORS = {"en": "#4C72B0", "es": "#DD8452", "sw": "#55A868"}
+COLORS = {"en": "#4C72B0", "es": "#DD8452", "it": "#8172B2", "sw": "#55A868"}
 
 
 def plot_hr_by_language_task(hr_df):

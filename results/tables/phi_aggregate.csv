@@ -1,2 +1,4 @@
 comparison,delta_HR_tqa,delta_HR_xcopa,phi_l
+es/TruthfulQA vs it/XCOPA,-2.66,1.33,-3.99
 es/TruthfulQA vs sw/XCOPA,-2.66,90.67,-93.33
+it/TruthfulQA vs sw/XCOPA,1.34,90.67,-89.33

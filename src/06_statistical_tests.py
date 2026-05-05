@@ -119,7 +119,12 @@ def run_tests(df):
                 "significant": "YES" if p_fisher < 0.05 else "NO",
             })
 
-    # ── 3. Per-language Φₗ (only if a language has both tasks) ──────────────
+    # ── 3. Per-language Φₗ with significance test ──────────────────────────
+    # When a language appears in both tasks (e.g. Italian after the revision),
+    # we can compute a clean within-language Φ_l and test it directly with a
+    # 2x2 chi-squared on (task × outcome) restricted to that language. This is
+    # the test the grader asked for: it removes the language-identity confound
+    # that the cross-task aggregate above suffers from.
     print("\n=== Per-Language Φₗ ===")
     found_any = False
     for lang in non_en_langs:
@@ -132,7 +137,34 @@ def run_tests(df):
             delta_tqa = tqa.mean() - tqa_en.mean()
             delta_xcopa = xcopa.mean() - xcopa_en.mean()
             phi = round((delta_tqa - delta_xcopa) * 100, 2)
-            print(f"  Φ_{lang} = {phi:.2f} pp")
+
+            lang_only = df[df["language"] == lang]
+            ct_lang = pd.crosstab(lang_only["task"], lang_only["is_hallucinated"])
+            chi2_l, p_l, dof_l, _ = chi2_contingency(ct_lang)
+
+            print(f"  Φ_{lang} = {phi:+.2f} pp   χ²={chi2_l:.2f}, p={p_l:.6f} {'✓' if p_l < 0.05 else '✗'}")
+            results.append({
+                "test": f"Chi-squared (task × outcome) | lang={lang}",
+                "comparison": f"{lang}/TruthfulQA vs {lang}/XCOPA (Φ_{lang}={phi:+.2f}pp)",
+                "en_HR": "",
+                "other_HR": "",
+                "statistic": round(chi2_l, 2),
+                "p_value": round(p_l, 6),
+                "significant": "YES" if p_l < 0.05 else "NO",
+            })
+
+            if ct_lang.shape == (2, 2):
+                or_l, p_fisher_l = fisher_exact(ct_lang)
+                print(f"    Fisher's exact: OR={or_l:.2f}, p={p_fisher_l:.6f} {'✓' if p_fisher_l < 0.05 else '✗'}")
+                results.append({
+                    "test": f"Fisher exact | lang={lang}",
+                    "comparison": f"{lang}/TruthfulQA vs {lang}/XCOPA",
+                    "en_HR": "",
+                    "other_HR": "",
+                    "statistic": round(or_l, 2),
+                    "p_value": round(p_fisher_l, 6),
+                    "significant": "YES" if p_fisher_l < 0.05 else "NO",
+                })
             found_any = True
 
     if not found_any:

@@ -1,0 +1,7 @@
+task,language,fabricated,incoherent,other,wrong_answer,TOTAL
+truthfulqa,en,0,0,27,14,41
+truthfulqa,es,1,1,24,11,37
+truthfulqa,it,1,0,27,15,43
+xcopa,en,0,0,7,5,12
+xcopa,it,0,0,8,6,14
+xcopa,sw,0,40,103,5,148

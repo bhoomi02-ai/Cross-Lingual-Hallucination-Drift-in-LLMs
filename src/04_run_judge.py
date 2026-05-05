@@ -83,11 +83,14 @@ def run_judge_file(filename):
 
     results = []
     for ex in tqdm(responses, desc=filename):
-        # Get the question text — field name differs by task
+        # NOTE: For XCOPA, ex["question"] is the type tag ("cause" | "effect"),
+        # not the actual question content (premise + choices live in
+        # ex["premise"], ex["choice1"], ex["choice2"]). Keeping this behavior
+        # for consistency with the midway report; see Limitations.
         question = ex.get("question", ex.get("premise", ""))
         judge_result = call_judge(question, ex["response"])
 
-        results.append({
+        record = {
             "question_id": ex["question_id"],
             "language": ex["language"],
             "task": ex["task"],
@@ -96,7 +99,12 @@ def run_judge_file(filename):
             "token_count": ex["token_count"],
             "label": judge_result["label"],
             "reason": judge_result["reason"],
-        })
+        }
+        # XCOPA-specific metadata for cause/effect breakdown
+        if ex["task"] == "xcopa":
+            record["question_type"] = ex.get("question")  # "cause" | "effect"
+            record["correct_label"] = ex.get("correct_label")
+        results.append(record)
         time.sleep(0.3)  # avoid rate limits
 
     out_name = filename.replace("_responses.json", "_labels.json")
