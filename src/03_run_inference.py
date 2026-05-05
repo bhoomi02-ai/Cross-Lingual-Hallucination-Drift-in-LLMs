@@ -3,28 +3,81 @@
 -------------------
 Runs Aya Expanse 8B on all formatted prompts.
 Saves responses with token counts to outputs/responses/.
+Logs GPU info and wall-clock runtime to results/gpu_runtime.txt.
 
 Reads from:  data/prompts/
 Writes to:   outputs/responses/
+             results/gpu_runtime.txt
 
 NOTE: Run this on Google Colab with a GPU (T4 free tier works).
       Runtime → Change runtime type → T4 GPU
+
+Model config:
+  Model:          CohereLabs/aya-expanse-8b
+  Quantization:   4-bit NF4 (BitsAndBytes, double quant, compute dtype=float16)
+  Decoding:       greedy (do_sample=False)
+  Max new tokens: 200
+  Hardware:       Google Colab T4 GPU (16 GB VRAM)
 
 Run: python src/03_run_inference.py
 """
 
 import json
 import os
+import time
 import torch
+from datetime import datetime
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from tqdm import tqdm
 
 PROMPT_DIR   = "data/prompts"
 RESPONSE_DIR = "outputs/responses"
+RESULTS_DIR  = "results"
 MODEL_ID     = "CohereLabs/aya-expanse-8b"
 MAX_NEW_TOKENS = 200
 
 os.makedirs(RESPONSE_DIR, exist_ok=True)
+os.makedirs(RESULTS_DIR, exist_ok=True)
+
+
+# ── GPU / runtime logging ─────────────────────────────────────────────────────
+
+def get_gpu_info():
+    if not torch.cuda.is_available():
+        return "No GPU detected"
+    name = torch.cuda.get_device_name(0)
+    vram_gb = torch.cuda.get_device_properties(0).total_memory / 1e9
+    return f"{name} ({vram_gb:.1f} GB VRAM)"
+
+
+def write_runtime_log(file_runtimes: dict, total_seconds: float):
+    gpu_info = get_gpu_info()
+    lines = [
+        "# GPU Runtime Log",
+        f"# Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Hardware",
+        f"GPU:              {gpu_info}",
+        "",
+        "## Model Config",
+        f"Model:            {MODEL_ID}",
+        "Quantization:     4-bit NF4 (BitsAndBytes, double quant)",
+        "Compute dtype:    float16",
+        "Decoding:         greedy (do_sample=False)",
+        f"Max new tokens:   {MAX_NEW_TOKENS}",
+        "",
+        "## Per-File Runtime",
+    ]
+    for fname, secs in file_runtimes.items():
+        lines.append(f"  {fname:<45} {secs/60:.1f} min")
+    lines += [
+        "",
+        f"Total wall-clock time: {total_seconds/60:.1f} min ({total_seconds/3600:.2f} hr)",
+    ]
+    log_path = os.path.join(RESULTS_DIR, "gpu_runtime.txt")
+    with open(log_path, "w") as f:
+        f.write("\n".join(lines) + "\n")
+    print(f"Runtime log saved to {log_path}")
 
 
 # ── Load model (once) ─────────────────────────────────────────────────────────
@@ -105,7 +158,14 @@ if __name__ == "__main__":
         f for f in os.listdir(PROMPT_DIR) if f.endswith("_prompts.json")
     ])
 
-    for fname in prompt_files:
-        run_file(fname, tokenizer, model)
+    file_runtimes = {}
+    total_start = time.time()
 
+    for fname in prompt_files:
+        t0 = time.time()
+        run_file(fname, tokenizer, model)
+        file_runtimes[fname] = time.time() - t0
+
+    total_elapsed = time.time() - total_start
+    write_runtime_log(file_runtimes, total_elapsed)
     print("All inference complete. Responses saved to outputs/responses/")
