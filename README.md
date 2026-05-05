@@ -2,7 +2,7 @@
 ### Does It Depend on Task Type?
 
 **Team:** Bhoomika Monthy Rajashekar, Devinn Chi, Chun Hsu, Anagha P Krishna  
-**Course:** CS505 — Computational Linguistics, Boston University  
+**Course:** CS505 — Natural Language Processing, Boston University  
 **Advisor:** Aaron Mueller
 
 ---
