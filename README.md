@@ -183,7 +183,7 @@ cross_lingual_drift/
 │   └── 10_error_analysis.py
 │
 ├── paper/
-│   ├── midway_report.tex         # Midterm report (15/15)
+│   ├── midway_report.tex         # Midterm report 
 │   ├── references.bib
 │   └── acl.sty / acl_natbib.bst
 │
@@ -200,4 +200,4 @@ cross_lingual_drift/
 | TruthfulQA | Factual QA | English, Spanish, Italian | `alexandrainst/m_truthfulqa` |
 | XCOPA | Commonsense reasoning | English, Italian, Swahili | `xcopa` (HuggingFace) |
 
-150 examples sampled per cell (random seed 42). Spanish is not available in XCOPA; Italian was added as a **shared language** across both tasks to serve as a confound control.
+150 examples sampled per cell (random seed 42). Spanish is not available in XCOPA, Italian was added as a **shared language** across both tasks to serve as a confound control.
